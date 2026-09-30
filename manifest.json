@@ -1,11 +1,19 @@
 {
   "id": "com.halloweencartoons.stremio",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "name": "🎃 Halloween Cartoons",
   "description": "Halloween specials, spooky cartoon episodes and Disney Halloween movies.",
-  "resources": ["catalog", "meta"],
+  "resources": [
+    "catalog",
+    "meta",
+    {
+      "name": "stream",
+      "types": ["movie", "series"],
+      "idPrefixes": ["tt"]
+    }
+  ],
   "types": ["series", "movie"],
-  "idPrefixes": ["hc-"],
+  "idPrefixes": ["hc-", "tt"],
   "catalogs": [
     {"type":"series","id":"halloween_specials","name":"🎃 Halloween Specials"},
     {"type":"series","id":"classic_halloween","name":"👻 Classic Halloween"},
