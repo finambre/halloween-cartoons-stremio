@@ -1,0 +1,38 @@
+{
+  "id": "com.halloweencartoons.stremio",
+  "version": "1.0.0",
+  "name": "🎃 Halloween Cartoons",
+  "description": "Classic cartoon series and movies with Halloween and spooky themes.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "series",
+    "movie"
+  ],
+  "idPrefixes": [
+    "tt"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "halloween_classics",
+      "name": "🎃 Classic Cartoons"
+    },
+    {
+      "type": "series",
+      "id": "halloween_90s",
+      "name": "👻 90s Cartoons"
+    },
+    {
+      "type": "series",
+      "id": "halloween_2000s",
+      "name": "🕷️ 2000s Cartoons"
+    },
+    {
+      "type": "movie",
+      "id": "halloween_movies",
+      "name": "🎬 Halloween Movies"
+    }
+  ]
+}
