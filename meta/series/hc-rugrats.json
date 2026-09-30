@@ -1,0 +1,8 @@
+{
+  "meta":{"id":"hc-rugrats","type":"series","name":"👻 Rugrats — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-rugrats.svg","description":"Classic Rugrats Halloween and spooky episodes."},
+  "videos":[
+    {"id":"tt0101188:1:9","title":"Candy Bar Creep Show / Monster in the Garage","season":1,"episode":9,"released":"1991-10-27T00:00:00.000Z"},
+    {"id":"tt0101188:6:21","title":"Ghost Story","season":6,"episode":21,"released":"1999-03-27T00:00:00.000Z"},
+    {"id":"tt0101188:8:2","title":"Curse of the Werewuff","season":8,"episode":2,"released":"2002-10-28T00:00:00.000Z"}
+  ]
+}
