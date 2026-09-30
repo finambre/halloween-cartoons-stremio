@@ -1,38 +1,15 @@
 {
   "id": "com.halloweencartoons.stremio",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "name": "🎃 Halloween Cartoons",
-  "description": "A curated collection of classic cartoon Halloween specials and spooky episodes.",
-  "resources": [
-    "catalog",
-    "meta"
-  ],
-  "types": [
-    "series"
-  ],
-  "idPrefixes": [
-    "tt"
-  ],
+  "description": "Halloween specials and spooky cartoon episodes, organized by show.",
+  "resources": ["catalog", "meta"],
+  "types": ["series"],
+  "idPrefixes": ["hc-"],
   "catalogs": [
-    {
-      "type": "series",
-      "id": "halloween_specials",
-      "name": "🎃 Halloween Specials"
-    },
-    {
-      "type": "series",
-      "id": "classic_halloween",
-      "name": "👻 Classic Halloween"
-    },
-    {
-      "type": "series",
-      "id": "halloween_90s",
-      "name": "🕷️ 90s Halloween"
-    },
-    {
-      "type": "series",
-      "id": "halloween_2000s",
-      "name": "🎃 2000s Halloween"
-    }
+    {"type":"series","id":"halloween_specials","name":"🎃 Halloween Specials"},
+    {"type":"series","id":"classic_halloween","name":"👻 Classic Halloween"},
+    {"type":"series","id":"halloween_90s","name":"🕷️ 90s Halloween"},
+    {"type":"series","id":"halloween_2000s","name":"🎃 2000s Halloween"}
   ]
 }
