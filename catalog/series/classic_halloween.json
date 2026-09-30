@@ -1,0 +1,28 @@
+{
+  "metas": [
+    {
+      "id": "tt0057729",
+      "type": "series",
+      "name": "Scooby-Doo, Where Are You!",
+      "poster": "https://images.metahub.space/poster/medium/tt0057729/img"
+    },
+    {
+      "id": "tt0106140",
+      "type": "series",
+      "name": "The Real Ghostbusters",
+      "poster": "https://images.metahub.space/poster/medium/tt0106140/img"
+    },
+    {
+      "id": "tt0101040",
+      "type": "series",
+      "name": "Aaahh!!! Real Monsters",
+      "poster": "https://images.metahub.space/poster/medium/tt0101040/img"
+    },
+    {
+      "id": "tt0118354",
+      "type": "series",
+      "name": "Dexter's Laboratory",
+      "poster": "https://images.metahub.space/poster/medium/tt0118354/img"
+    }
+  ]
+}
