@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "hc-ededdeddy",
+    "type": "movie",
+    "name": "🎃 Ed, Edd n Eddy's Boo Haw Haw",
+    "poster": "https://images.metahub.space/poster/medium/tt0871609/img",
+    "videos": [
+      {
+        "id": "tt0871609",
+        "title": "Ed, Edd n Eddy's Boo Haw Haw",
+        "released": "2005-10-28T00:00:00.000Z"
+      }
+    ]
+  }
+}
