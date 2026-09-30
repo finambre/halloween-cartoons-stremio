@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "hc-heyarnold",
+    "type": "series",
+    "name": "👻 Hey Arnold! — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0115200/img",
+    "videos": [
+      {
+        "id": "tt0115200:2:7",
+        "title": "Arnold's Halloween",
+        "season": 2,
+        "episode": 7,
+        "released": "1997-10-29T00:00:00.000Z"
+      }
+    ]
+  }
+}
