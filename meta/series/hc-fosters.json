@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "hc-fosters",
+    "type": "series",
+    "name": "🏚️ Foster's Home — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0419326/img",
+    "videos": [
+      {
+        "id": "tt0419326:5:10",
+        "title": "Nightmare on Wilson Way",
+        "season": 5,
+        "episode": 10,
+        "released": "2007-10-12T00:00:00.000Z"
+      }
+    ]
+  }
+}
