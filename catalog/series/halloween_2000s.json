@@ -1,29 +1,6 @@
 {
-  "metas": [
-    {
-      "id": "tt0364807",
-      "type": "series",
-      "name": "Danny Phantom"
-    },
-    {
-      "id": "tt0387199",
-      "type": "series",
-      "name": "Invader ZIM"
-    },
-    {
-      "id": "tt0274299",
-      "type": "series",
-      "name": "Kim Possible"
-    },
-    {
-      "id": "tt0292804",
-      "type": "series",
-      "name": "The Grim Adventures of Billy & Mandy"
-    },
-    {
-      "id": "tt0363307",
-      "type": "series",
-      "name": "Foster's Home for Imaginary Friends"
-    }
+  "metas":[
+    {"id":"hc-billymandy","type":"series","name":"💀 Billy & Mandy — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-billy-mandy.svg"},
+    {"id":"hc-spongebob","type":"series","name":"🕷️ SpongeBob — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-spongebob.svg"}
   ]
 }
