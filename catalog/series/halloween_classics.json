@@ -1,0 +1,54 @@
+{
+  "metas": [
+    {
+      "id": "tt0057729",
+      "type": "series",
+      "name": "Scooby-Doo, Where Are You!"
+    },
+    {
+      "id": "tt0115200",
+      "type": "series",
+      "name": "Hey Arnold!"
+    },
+    {
+      "id": "tt0111973",
+      "type": "series",
+      "name": "Doug"
+    },
+    {
+      "id": "tt0106098",
+      "type": "series",
+      "name": "Rocko's Modern Life"
+    },
+    {
+      "id": "tt0106140",
+      "type": "series",
+      "name": "The Real Ghostbusters"
+    },
+    {
+      "id": "tt0101040",
+      "type": "series",
+      "name": "Aaahh!!! Real Monsters"
+    },
+    {
+      "id": "tt0118350",
+      "type": "series",
+      "name": "Johnny Bravo"
+    },
+    {
+      "id": "tt0101178",
+      "type": "series",
+      "name": "CatDog"
+    },
+    {
+      "id": "tt0112170",
+      "type": "series",
+      "name": "The Powerpuff Girls"
+    },
+    {
+      "id": "tt0118354",
+      "type": "series",
+      "name": "Dexter's Laboratory"
+    }
+  ]
+}
