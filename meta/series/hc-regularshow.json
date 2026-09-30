@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "hc-regularshow",
+    "type": "series",
+    "name": "🎃 Regular Show — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt1710308/img",
+    "videos": [
+      {
+        "id": "tt1710308:3:4",
+        "title": "Terror Tales of the Park",
+        "season": 3,
+        "episode": 4,
+        "released": "2011-10-10T00:00:00.000Z"
+      },
+      {
+        "id": "tt1710308:5:8",
+        "title": "Terror Tales of the Park III",
+        "season": 5,
+        "episode": 8,
+        "released": "2013-10-21T00:00:00.000Z"
+      },
+      {
+        "id": "tt1710308:6:4",
+        "title": "Terror Tales of the Park IV",
+        "season": 6,
+        "episode": 4,
+        "released": "2014-10-30T00:00:00.000Z"
+      },
+      {
+        "id": "tt1710308:8:19",
+        "title": "Terror Tales of the Park VI",
+        "season": 8,
+        "episode": 19,
+        "released": "2016-10-27T00:00:00.000Z"
+      }
+    ]
+  }
+}
