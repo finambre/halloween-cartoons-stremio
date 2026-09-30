@@ -4,18 +4,18 @@
     "type":"series",
     "name":"🎃 The Simpsons — Treehouse of Horror",
     "poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-simpsons.svg",
-    "description":"Halloween episodes from The Simpsons."
-  },
-  "videos":[
-    {"id":"tt0096697:2:3","title":"Treehouse of Horror","season":2,"episode":3,"released":"1990-10-25T00:00:00.000Z"},
-    {"id":"tt0096697:3:7","title":"Treehouse of Horror II","season":3,"episode":7,"released":"1991-10-31T00:00:00.000Z"},
-    {"id":"tt0096697:4:5","title":"Treehouse of Horror III","season":4,"episode":5,"released":"1992-10-29T00:00:00.000Z"},
-    {"id":"tt0096697:5:5","title":"Treehouse of Horror IV","season":5,"episode":5,"released":"1993-10-28T00:00:00.000Z"},
-    {"id":"tt0096697:6:6","title":"Treehouse of Horror V","season":6,"episode":6,"released":"1994-10-30T00:00:00.000Z"},
-    {"id":"tt0096697:7:6","title":"Treehouse of Horror VI","season":7,"episode":6,"released":"1995-10-29T00:00:00.000Z"},
-    {"id":"tt0096697:8:1","title":"Treehouse of Horror VII","season":8,"episode":1,"released":"1996-10-27T00:00:00.000Z"},
-    {"id":"tt0096697:9:4","title":"Treehouse of Horror VIII","season":9,"episode":4,"released":"1997-10-26T00:00:00.000Z"},
-    {"id":"tt0096697:10:4","title":"Treehouse of Horror IX","season":10,"episode":4,"released":"1998-10-25T00:00:00.000Z"},
-    {"id":"tt0096697:11:4","title":"Treehouse of Horror X","season":11,"episode":4,"released":"1999-10-31T00:00:00.000Z"}
-  ]
+    "description":"Halloween episodes from The Simpsons.",
+    "videos":[
+      {"id":"tt0096697:2:3","title":"Treehouse of Horror","season":2,"episode":3,"released":"1990-10-25T00:00:00.000Z"},
+      {"id":"tt0096697:3:7","title":"Treehouse of Horror II","season":3,"episode":7,"released":"1991-10-31T00:00:00.000Z"},
+      {"id":"tt0096697:4:5","title":"Treehouse of Horror III","season":4,"episode":5,"released":"1992-10-29T00:00:00.000Z"},
+      {"id":"tt0096697:5:5","title":"Treehouse of Horror IV","season":5,"episode":5,"released":"1993-10-28T00:00:00.000Z"},
+      {"id":"tt0096697:6:6","title":"Treehouse of Horror V","season":6,"episode":6,"released":"1994-10-30T00:00:00.000Z"},
+      {"id":"tt0096697:7:6","title":"Treehouse of Horror VI","season":7,"episode":6,"released":"1995-10-29T00:00:00.000Z"},
+      {"id":"tt0096697:8:1","title":"Treehouse of Horror VII","season":8,"episode":1,"released":"1996-10-27T00:00:00.000Z"},
+      {"id":"tt0096697:9:4","title":"Treehouse of Horror VIII","season":9,"episode":4,"released":"1997-10-26T00:00:00.000Z"},
+      {"id":"tt0096697:10:4","title":"Treehouse of Horror IX","season":10,"episode":4,"released":"1998-10-25T00:00:00.000Z"},
+      {"id":"tt0096697:11:4","title":"Treehouse of Horror X","season":11,"episode":4,"released":"1999-10-31T00:00:00.000Z"}
+    ]
+  }
 }
