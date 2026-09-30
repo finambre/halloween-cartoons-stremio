@@ -1,6 +1,5 @@
 {
-  "meta":{"id":"hc-billymandy","type":"series","name":"💀 Billy & Mandy — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-billy-mandy.svg","description":"Halloween specials from The Grim Adventures of Billy & Mandy."},
-  "videos":[
+  "meta":{"id":"hc-billymandy","type":"series","name":"💀 Billy & Mandy — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-billy-mandy.svg","description":"Halloween specials from The Grim Adventures of Billy & Mandy.","videos":[
     {"id":"tt0292804:1:18","title":"Billy & Mandy's Jacked-Up Halloween","season":1,"episode":18,"released":"2003-10-31T00:00:00.000Z"}
-  ]
+  ]}
 }
