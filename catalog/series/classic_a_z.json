@@ -1,0 +1,82 @@
+{
+  "metas": [
+    {
+      "id": "hc-aaahh",
+      "type": "series",
+      "name": "👹 Aaahh!!! Real Monsters — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0108684/img"
+    },
+    {
+      "id": "hc-billymandy",
+      "type": "series",
+      "name": "💀 Billy & Mandy — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0292800/img"
+    },
+    {
+      "id": "hc-ededdeddy",
+      "type": "movie",
+      "name": "🎃 Ed, Edd n Eddy's Boo Haw Haw",
+      "poster": "https://images.metahub.space/poster/medium/tt0871609/img"
+    },
+    {
+      "id": "hc-fosters",
+      "type": "series",
+      "name": "🏚️ Foster's Home — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0419326/img"
+    },
+    {
+      "id": "hc-heyarnold",
+      "type": "series",
+      "name": "👻 Hey Arnold! — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0115200/img"
+    },
+    {
+      "id": "hc-invaderzim",
+      "type": "series",
+      "name": "👽 Invader ZIM — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0235923/img"
+    },
+    {
+      "id": "hc-regularshow",
+      "type": "series",
+      "name": "🎃 Regular Show — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt1710308/img"
+    },
+    {
+      "id": "hc-rocko",
+      "type": "series",
+      "name": "🎃 Rocko's Modern Life — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0101176/img"
+    },
+    {
+      "id": "hc-rugrats",
+      "type": "series",
+      "name": "👻 Rugrats — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0101188/img"
+    },
+    {
+      "id": "hc-scooby",
+      "type": "series",
+      "name": "👻 Scooby-Doo — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0063950/img"
+    },
+    {
+      "id": "hc-spongebob",
+      "type": "series",
+      "name": "🕷️ SpongeBob — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0206512/img"
+    },
+    {
+      "id": "hc-powerpuff",
+      "type": "series",
+      "name": "🧪 The Powerpuff Girls — Spooky",
+      "poster": "https://images.metahub.space/poster/medium/tt0175058/img"
+    },
+    {
+      "id": "hc-simpsons",
+      "type": "series",
+      "name": "🎃 The Simpsons — Treehouse of Horror",
+      "poster": "https://images.metahub.space/poster/medium/tt0096697/img"
+    }
+  ]
+}
