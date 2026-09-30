@@ -1,40 +1,8 @@
 {
   "metas": [
-    {
-      "id": "tt0096697",
-      "type": "series",
-      "name": "The Simpsons",
-      "poster": "https://images.metahub.space/poster/medium/tt0096697/img"
-    },
-    {
-      "id": "tt0057729",
-      "type": "series",
-      "name": "Scooby-Doo, Where Are You!",
-      "poster": "https://images.metahub.space/poster/medium/tt0057729/img"
-    },
-    {
-      "id": "tt0101188",
-      "type": "series",
-      "name": "Rugrats",
-      "poster": "https://images.metahub.space/poster/medium/tt0101188/img"
-    },
-    {
-      "id": "tt0206512",
-      "type": "series",
-      "name": "SpongeBob SquarePants",
-      "poster": "https://images.metahub.space/poster/medium/tt0206512/img"
-    },
-    {
-      "id": "tt0220880",
-      "type": "series",
-      "name": "Courage the Cowardly Dog",
-      "poster": "https://images.metahub.space/poster/medium/tt0220880/img"
-    },
-    {
-      "id": "tt0292804",
-      "type": "series",
-      "name": "The Grim Adventures of Billy & Mandy",
-      "poster": "https://images.metahub.space/poster/medium/tt0292804/img"
-    }
+    {"id":"hc-simpsons","type":"series","name":"🎃 The Simpsons — Treehouse of Horror","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-simpsons.svg"},
+    {"id":"hc-rugrats","type":"series","name":"👻 Rugrats — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-rugrats.svg"},
+    {"id":"hc-spongebob","type":"series","name":"🕷️ SpongeBob — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-spongebob.svg"},
+    {"id":"hc-billymandy","type":"series","name":"💀 Billy & Mandy — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-billy-mandy.svg"}
   ]
 }
