@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "hc-powerpuff",
+    "type": "series",
+    "name": "🧪 The Powerpuff Girls — Spooky",
+    "poster": "https://images.metahub.space/poster/medium/tt0175058/img",
+    "videos": [
+      {
+        "id": "tt0175058:1:5",
+        "title": "Boogie Frights / Abracadaver",
+        "season": 1,
+        "episode": 5,
+        "released": "1998-12-16T00:00:00.000Z"
+      }
+    ]
+  }
+}
