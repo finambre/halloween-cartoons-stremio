@@ -1,7 +1,14 @@
 {
-  "meta":{"id":"hc-spongebob","type":"series","name":"🕷️ SpongeBob — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-spongebob.svg","description":"Halloween and spooky SpongeBob episodes.","videos":[
-    {"id":"tt0206512:1:13","title":"Scaredy Pants / I Was a Teenage Gary","season":1,"episode":13,"released":"1999-10-27T00:00:00.000Z"},
-    {"id":"tt0206512:2:14","title":"Welcome to the Chum Bucket / Frankendoodle","season":2,"episode":14,"released":"2002-07-21T00:00:00.000Z"},
-    {"id":"tt0206512:2:16","title":"Graveyard Shift / Krusty Love","season":2,"episode":16,"released":"2002-09-06T00:00:00.000Z"}
-  ]}
+  "meta":{
+    "id":"hc-spongebob",
+    "type":"series",
+    "name":"🕷️ SpongeBob — Halloween",
+    "poster":"https://images.metahub.space/poster/medium/tt0206512/img",
+    "description":"Halloween and spooky SpongeBob episodes.",
+    "videos":[
+      {"id":"tt0206512:1:13","title":"Scaredy Pants / I Was a Teenage Gary","season":1,"episode":13,"released":"1999-10-28T00:00:00.000Z","thumbnail":"https://images.metahub.space/thumbnail/medium/tt0707307/img"},
+      {"id":"tt0206512:8:10","title":"Ghoul Fools","season":8,"episode":10,"released":"2011-10-25T00:00:00.000Z","thumbnail":"https://images.metahub.space/thumbnail/medium/tt2089404/img"},
+      {"id":"tt0206512:11:11","title":"The Legend of Boo-Kini Bottom","season":11,"episode":11,"released":"2017-10-13T00:00:00.000Z","thumbnail":"https://images.metahub.space/thumbnail/medium/tt7044772/img"}
+    ]
+  }
 }
