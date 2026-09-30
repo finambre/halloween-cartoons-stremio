@@ -1,6 +1,6 @@
 {
   "metas":[
-    {"id":"hc-simpsons","type":"series","name":"🎃 The Simpsons — Treehouse of Horror","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-simpsons.svg"},
-    {"id":"hc-rugrats","type":"series","name":"👻 Rugrats — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-rugrats.svg"}
+    {"id":"hc-simpsons","type":"series","name":"🎃 The Simpsons — Treehouse of Horror","poster":"https://images.metahub.space/poster/medium/tt0096697/img"},
+    {"id":"hc-rugrats","type":"series","name":"👻 Rugrats — Halloween","poster":"https://images.metahub.space/poster/medium/tt0101188/img"}
   ]
 }
