@@ -1,12 +1,12 @@
 {
   "metas": [
-    {"id":"hc-hocus-pocus","type":"movie","name":"Hocus Pocus","poster":"https://images.metahub.space/poster/medium/tt0107120/img"},
-    {"id":"hc-nightmare-before-christmas","type":"movie","name":"The Nightmare Before Christmas","poster":"https://images.metahub.space/poster/medium/tt0107688/img"},
-    {"id":"hc-halloweentown","type":"movie","name":"Halloweentown","poster":"https://images.metahub.space/poster/medium/tt0173886/img"},
-    {"id":"hc-dont-look-under-bed","type":"movie","name":"Don't Look Under the Bed","poster":"https://images.metahub.space/poster/medium/tt0208101/img"},
-    {"id":"hc-mickeys-house-of-villains","type":"movie","name":"Mickey's House of Villains","poster":"https://images.metahub.space/poster/medium/tt0329374/img"},
-    {"id":"hc-pooh-heffalump-halloween","type":"movie","name":"Pooh's Heffalump Halloween Movie","poster":"https://images.metahub.space/poster/medium/tt0457437/img"},
-    {"id":"hc-toy-story-of-terror","type":"movie","name":"Toy Story of Terror!","poster":"https://images.metahub.space/poster/medium/tt2446040/img"},
-    {"id":"hc-muppets-haunted-mansion","type":"movie","name":"Muppets Haunted Mansion","poster":"https://images.metahub.space/poster/medium/tt14602326/img"}
+    {"id":"tt0107120","type":"movie","name":"Hocus Pocus","poster":"https://images.metahub.space/poster/medium/tt0107120/img"},
+    {"id":"tt0107688","type":"movie","name":"The Nightmare Before Christmas","poster":"https://images.metahub.space/poster/medium/tt0107688/img"},
+    {"id":"tt0173886","type":"movie","name":"Halloweentown","poster":"https://images.metahub.space/poster/medium/tt0173886/img"},
+    {"id":"tt0208101","type":"movie","name":"Don't Look Under the Bed","poster":"https://images.metahub.space/poster/medium/tt0208101/img"},
+    {"id":"tt0329374","type":"movie","name":"Mickey's House of Villains","poster":"https://images.metahub.space/poster/medium/tt0329374/img"},
+    {"id":"tt0457437","type":"movie","name":"Pooh's Heffalump Halloween Movie","poster":"https://images.metahub.space/poster/medium/tt0457437/img"},
+    {"id":"tt2446040","type":"movie","name":"Toy Story of Terror!","poster":"https://images.metahub.space/poster/medium/tt2446040/img"},
+    {"id":"tt14602326","type":"movie","name":"Muppets Haunted Mansion","poster":"https://images.metahub.space/poster/medium/tt14602326/img"}
   ]
 }
