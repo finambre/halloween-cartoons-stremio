@@ -1,0 +1,28 @@
+{
+  "metas": [
+    {
+      "id": "tt0364807",
+      "type": "series",
+      "name": "Danny Phantom",
+      "poster": "https://images.metahub.space/poster/medium/tt0364807/img"
+    },
+    {
+      "id": "tt0387199",
+      "type": "series",
+      "name": "Invader ZIM",
+      "poster": "https://images.metahub.space/poster/medium/tt0387199/img"
+    },
+    {
+      "id": "tt0292804",
+      "type": "series",
+      "name": "The Grim Adventures of Billy & Mandy",
+      "poster": "https://images.metahub.space/poster/medium/tt0292804/img"
+    },
+    {
+      "id": "tt0149460",
+      "type": "series",
+      "name": "Foster's Home for Imaginary Friends",
+      "poster": "https://images.metahub.space/poster/medium/tt0149460/img"
+    }
+  ]
+}
