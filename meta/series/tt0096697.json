@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "id": "tt0096697",
+    "type": "series",
+    "name": "The Simpsons",
+    "poster": "https://images.metahub.space/poster/medium/tt0096697/img",
+    "videos": [
+      {
+        "id": "tt0096697:2:3",
+        "title": "Treehouse of Horror",
+        "season": 2,
+        "episode": 3,
+        "released": "1990-10-25T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:3:7",
+        "title": "Treehouse of Horror II",
+        "season": 3,
+        "episode": 7,
+        "released": "1991-10-31T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:4:5",
+        "title": "Treehouse of Horror III",
+        "season": 4,
+        "episode": 5,
+        "released": "1992-10-29T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:5:5",
+        "title": "Treehouse of Horror IV",
+        "season": 5,
+        "episode": 5,
+        "released": "1993-10-28T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:6:6",
+        "title": "Treehouse of Horror V",
+        "season": 6,
+        "episode": 6,
+        "released": "1994-10-30T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:7:6",
+        "title": "Treehouse of Horror VI",
+        "season": 7,
+        "episode": 6,
+        "released": "1995-10-29T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:8:1",
+        "title": "Treehouse of Horror VII",
+        "season": 8,
+        "episode": 1,
+        "released": "1996-10-27T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:9:4",
+        "title": "Treehouse of Horror VIII",
+        "season": 9,
+        "episode": 4,
+        "released": "1997-10-26T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:10:4",
+        "title": "Treehouse of Horror IX",
+        "season": 10,
+        "episode": 4,
+        "released": "1998-10-25T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:11:4",
+        "title": "Treehouse of Horror X",
+        "season": 11,
+        "episode": 4,
+        "released": "1999-10-31T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:12:1",
+        "title": "Treehouse of Horror XI",
+        "season": 12,
+        "episode": 1,
+        "released": "2000-11-01T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:13:1",
+        "title": "Treehouse of Horror XII",
+        "season": 13,
+        "episode": 1,
+        "released": "2001-11-06T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:14:1",
+        "title": "Treehouse of Horror XIII",
+        "season": 14,
+        "episode": 1,
+        "released": "2002-11-03T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:15:1",
+        "title": "Treehouse of Horror XIV",
+        "season": 15,
+        "episode": 1,
+        "released": "2003-11-02T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:16:1",
+        "title": "Treehouse of Horror XV",
+        "season": 16,
+        "episode": 1,
+        "released": "2004-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:17:4",
+        "title": "Treehouse of Horror XVI",
+        "season": 17,
+        "episode": 4,
+        "released": "2005-11-06T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:18:4",
+        "title": "Treehouse of Horror XVII",
+        "season": 18,
+        "episode": 4,
+        "released": "2006-11-05T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:19:5",
+        "title": "Treehouse of Horror XVIII",
+        "season": 19,
+        "episode": 5,
+        "released": "2007-11-04T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:20:4",
+        "title": "Treehouse of Horror XIX",
+        "season": 20,
+        "episode": 4,
+        "released": "2008-11-02T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:21:4",
+        "title": "Treehouse of Horror XX",
+        "season": 21,
+        "episode": 4,
+        "released": "2009-10-18T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:22:4",
+        "title": "Treehouse of Horror XXI",
+        "season": 22,
+        "episode": 4,
+        "released": "2010-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:23:3",
+        "title": "Treehouse of Horror XXII",
+        "season": 23,
+        "episode": 3,
+        "released": "2011-10-30T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:24:2",
+        "title": "Treehouse of Horror XXIII",
+        "season": 24,
+        "episode": 2,
+        "released": "2012-10-07T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:25:2",
+        "title": "Treehouse of Horror XXIV",
+        "season": 25,
+        "episode": 2,
+        "released": "2013-10-06T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:26:4",
+        "title": "Treehouse of Horror XXV",
+        "season": 26,
+        "episode": 4,
+        "released": "2014-10-19T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:27:5",
+        "title": "Treehouse of Horror XXVI",
+        "season": 27,
+        "episode": 5,
+        "released": "2015-10-25T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:28:4",
+        "title": "Treehouse of Horror XXVII",
+        "season": 28,
+        "episode": 4,
+        "released": "2016-10-16T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:29:4",
+        "title": "Treehouse of Horror XXVIII",
+        "season": 29,
+        "episode": 4,
+        "released": "2017-10-22T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:30:4",
+        "title": "Treehouse of Horror XXIX",
+        "season": 30,
+        "episode": 4,
+        "released": "2018-10-21T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:31:4",
+        "title": "Treehouse of Horror XXX",
+        "season": 31,
+        "episode": 4,
+        "released": "2019-10-20T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:32:4",
+        "title": "Treehouse of Horror XXXI",
+        "season": 32,
+        "episode": 4,
+        "released": "2020-11-01T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:33:3",
+        "title": "Treehouse of Horror XXXII",
+        "season": 33,
+        "episode": 3,
+        "released": "2021-10-31T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:34:6",
+        "title": "Treehouse of Horror XXXIII",
+        "season": 34,
+        "episode": 6,
+        "released": "2022-10-30T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:35:5",
+        "title": "Treehouse of Horror XXXIV",
+        "season": 35,
+        "episode": 5,
+        "released": "2023-11-05T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:36:5",
+        "title": "Treehouse of Horror XXXV",
+        "season": 36,
+        "episode": 5,
+        "released": "2024-11-03T00:00:00.000Z"
+      },
+      {
+        "id": "tt0096697:37:3",
+        "title": "Treehouse of Horror XXXVI",
+        "season": 37,
+        "episode": 3,
+        "released": "2025-10-19T00:00:00.000Z"
+      }
+    ]
+  }
+}
