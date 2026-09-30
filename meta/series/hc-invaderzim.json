@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "hc-invaderzim",
+    "type": "series",
+    "name": "👽 Invader ZIM — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0235923/img",
+    "videos": [
+      {
+        "id": "tt0235923:1:12",
+        "title": "Halloween Spectacular of Spooky Doom",
+        "season": 1,
+        "episode": 12,
+        "released": "2001-10-30T00:00:00.000Z"
+      }
+    ]
+  }
+}
