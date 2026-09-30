@@ -3,52 +3,62 @@
     {
       "id": "tt0057729",
       "type": "series",
-      "name": "Scooby-Doo, Where Are You!"
+      "name": "Scooby-Doo, Where Are You!",
+      "poster": "https://images.metahub.space/poster/medium/tt0057729/img"
     },
     {
       "id": "tt0115200",
       "type": "series",
-      "name": "Hey Arnold!"
+      "name": "Hey Arnold!",
+      "poster": "https://images.metahub.space/poster/medium/tt0115200/img"
     },
     {
       "id": "tt0111973",
       "type": "series",
-      "name": "Doug"
+      "name": "Doug",
+      "poster": "https://images.metahub.space/poster/medium/tt0111973/img"
     },
     {
       "id": "tt0106098",
       "type": "series",
-      "name": "Rocko's Modern Life"
+      "name": "Rocko's Modern Life",
+      "poster": "https://images.metahub.space/poster/medium/tt0106098/img"
     },
     {
       "id": "tt0106140",
       "type": "series",
-      "name": "The Real Ghostbusters"
+      "name": "The Real Ghostbusters",
+      "poster": "https://images.metahub.space/poster/medium/tt0106140/img"
     },
     {
       "id": "tt0101040",
       "type": "series",
-      "name": "Aaahh!!! Real Monsters"
+      "name": "Aaahh!!! Real Monsters",
+      "poster": "https://images.metahub.space/poster/medium/tt0101040/img"
     },
     {
       "id": "tt0118350",
       "type": "series",
-      "name": "Johnny Bravo"
+      "name": "Johnny Bravo",
+      "poster": "https://images.metahub.space/poster/medium/tt0118350/img"
     },
     {
       "id": "tt0101178",
       "type": "series",
-      "name": "CatDog"
+      "name": "CatDog",
+      "poster": "https://images.metahub.space/poster/medium/tt0101178/img"
     },
     {
       "id": "tt0112170",
       "type": "series",
-      "name": "The Powerpuff Girls"
+      "name": "The Powerpuff Girls",
+      "poster": "https://images.metahub.space/poster/medium/tt0112170/img"
     },
     {
       "id": "tt0118354",
       "type": "series",
-      "name": "Dexter's Laboratory"
+      "name": "Dexter's Laboratory",
+      "poster": "https://images.metahub.space/poster/medium/tt0118354/img"
     }
   ]
 }
