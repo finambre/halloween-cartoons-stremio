@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "hc-rocko",
+    "type": "series",
+    "name": "🎃 Rocko's Modern Life — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0101176/img",
+    "videos": [
+      {
+        "id": "tt0101176:3:3",
+        "title": "Sugar-Frosted Frights / Ed Is Dead: A Thriller!",
+        "season": 3,
+        "episode": 3,
+        "released": "1995-10-31T00:00:00.000Z"
+      }
+    ]
+  }
+}
