@@ -1,0 +1,34 @@
+{
+  "metas": [
+    {
+      "id": "tt0096697",
+      "type": "series",
+      "name": "The Simpsons",
+      "poster": "https://images.metahub.space/poster/medium/tt0096697/img"
+    },
+    {
+      "id": "tt0101188",
+      "type": "series",
+      "name": "Rugrats",
+      "poster": "https://images.metahub.space/poster/medium/tt0101188/img"
+    },
+    {
+      "id": "tt0184111",
+      "type": "series",
+      "name": "Ed, Edd n Eddy",
+      "poster": "https://images.metahub.space/poster/medium/tt0184111/img"
+    },
+    {
+      "id": "tt0220880",
+      "type": "series",
+      "name": "Courage the Cowardly Dog",
+      "poster": "https://images.metahub.space/poster/medium/tt0220880/img"
+    },
+    {
+      "id": "tt0122342",
+      "type": "series",
+      "name": "The Fairly OddParents",
+      "poster": "https://images.metahub.space/poster/medium/tt0122342/img"
+    }
+  ]
+}
