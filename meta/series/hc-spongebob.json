@@ -1,0 +1,8 @@
+{
+  "meta":{"id":"hc-spongebob","type":"series","name":"🕷️ SpongeBob — Halloween","poster":"https://finambre.github.io/halloween-cartoons-stremio/assets/poster-spongebob.svg","description":"Halloween and spooky SpongeBob episodes."},
+  "videos":[
+    {"id":"tt0206512:1:13","title":"Scaredy Pants / I Was a Teenage Gary","season":1,"episode":13,"released":"1999-10-27T00:00:00.000Z"},
+    {"id":"tt0206512:2:14","title":"Welcome to the Chum Bucket / Frankendoodle","season":2,"episode":14,"released":"2002-07-21T00:00:00.000Z"},
+    {"id":"tt0206512:2:16","title":"Graveyard Shift / Krusty Love","season":2,"episode":16,"released":"2002-09-06T00:00:00.000Z"}
+  ]
+}
