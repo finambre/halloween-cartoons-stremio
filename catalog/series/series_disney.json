@@ -3,61 +3,61 @@
     {
       "id": "hc-ducktales",
       "type": "series",
-      "name": "DuckTales — Halloween",
+      "name": "DuckTales",
       "poster": "https://images.metahub.space/poster/medium/tt0092345/img"
     },
     {
       "id": "hc-darkwingduck",
       "type": "series",
-      "name": "Darkwing Duck — Halloween",
+      "name": "Darkwing Duck",
       "poster": "https://images.metahub.space/poster/medium/tt0101076/img"
     },
     {
       "id": "hc-winniethepooh",
       "type": "series",
-      "name": "The New Adventures of Winnie the Pooh — Spooky",
+      "name": "The New Adventures of Winnie the Pooh",
       "poster": "https://images.metahub.space/poster/medium/tt0165052/img"
     },
     {
       "id": "hc-chipndale",
       "type": "series",
-      "name": "Chip 'n Dale: Rescue Rangers — Spooky",
+      "name": "Chip 'n Dale: Rescue Rangers",
       "poster": "https://images.metahub.space/poster/medium/tt0096557/img"
     },
     {
       "id": "hc-gooftroop",
       "type": "series",
-      "name": "Goof Troop — Halloween",
+      "name": "Goof Troop",
       "poster": "https://m.media-amazon.com/images/M/MV5BODYzNjk0NjctYmQzMy00NzU5LWE4YzAtMmJlN2QwZTgyNzM2XkEyXkFqcGc%40._V1_.jpg"
     },
     {
       "id": "hc-houseofmouse",
       "type": "series",
-      "name": "House of Mouse — Halloween",
+      "name": "House of Mouse",
       "poster": "https://static.tvmaze.com/uploads/images/original_untouched/52/130945.jpg"
     },
     {
       "id": "hc-lilostitch",
       "type": "series",
-      "name": "Lilo & Stitch: The Series — Halloween",
+      "name": "Lilo & Stitch: The Series",
       "poster": "https://image.tmdb.org/t/p/original/997mXFpYV2zdXK4EOctN3hgciaT.jpg"
     },
     {
       "id": "hc-littleeinsteins",
       "type": "series",
-      "name": "Little Einsteins — Halloween",
+      "name": "Little Einsteins",
       "poster": "https://m.media-amazon.com/images/M/MV5BNjViODUxMzUtYzQ1Ny00OWFiLWI3MzEtNzljMjY0Mzg3Njc3XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": "hc-mickeyclubhouse",
       "type": "series",
-      "name": "Mickey Mouse Clubhouse — Halloween",
+      "name": "Mickey Mouse Clubhouse",
       "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/19121e86-2bae-412f-a79d-075421621433?%2Fscale%3Fwidth=506&aspectRatio=2.00&format=webp"
     },
     {
       "id": "hc-mickeymouse",
       "type": "series",
-      "name": "Mickey Mouse — Halloween",
+      "name": "Mickey Mouse",
       "poster": "https://lumiere-a.akamaihd.net/v1/images/p_disneymickeymouse_21494_cef43efe.jpeg?region=0%2C45%2C540%2C720"
     }
   ]
