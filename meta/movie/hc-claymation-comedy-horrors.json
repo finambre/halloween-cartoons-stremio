@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "hc-claymation-comedy-horrors",
+    "type": "movie",
+    "name": "🧟 Claymation Comedy of Horrors",
+    "poster": "https://images.metahub.space/poster/medium/tt0252993/img",
+    "videos": [
+      {
+        "id": "tt0252993",
+        "title": "Claymation Comedy of Horrors",
+        "released": "1991-05-29T00:00:00.000Z"
+      }
+    ]
+  }
+}
