@@ -1,1 +1,17 @@
-{"meta":{"id":"hc-beetlejuice","type":"series","name":"🪲 Beetlejuice — Halloween","poster":"https://images.metahub.space/poster/medium/tt0096543/img","videos":[{"id":"tt0096543:2:6","title":"Bewitched, Bothered & Beetlejuiced","season":2,"episode":6,"released":"1990-10-06T00:00:00.000Z"}]}}
+{
+  "meta": {
+    "id": "hc-beetlejuice",
+    "type": "series",
+    "name": "🪲 Beetlejuice — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0096543/img",
+    "videos": [
+      {
+        "id": "tt0096543:2:6",
+        "title": "Bewitched, Bothered & Beetlejuiced",
+        "season": 2,
+        "episode": 6,
+        "released": "1990-10-06T00:00:00.000Z"
+      }
+    ]
+  }
+}

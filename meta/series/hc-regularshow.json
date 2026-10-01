@@ -20,18 +20,18 @@
         "released": "2013-10-21T00:00:00.000Z"
       },
       {
-        "id": "tt1710308:6:4",
-        "title": "Terror Tales of the Park IV",
-        "season": 6,
-        "episode": 4,
-        "released": "2014-10-30T00:00:00.000Z"
-      },
-      {
         "id": "tt1710308:8:19",
         "title": "Terror Tales of the Park VI",
         "season": 8,
         "episode": 19,
         "released": "2016-10-27T00:00:00.000Z"
+      },
+      {
+        "id": "tt1710308:6:4",
+        "title": "Terror Tales of the Park IV",
+        "season": 6,
+        "episode": 4,
+        "released": "2014-10-30T00:00:00.000Z"
       }
     ]
   }

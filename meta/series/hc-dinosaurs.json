@@ -1,1 +1,17 @@
-{"meta":{"id":"hc-dinosaurs","type":"series","name":"🦖 Dinosaurs — Halloween","poster":"https://images.metahub.space/poster/medium/tt0101081/img","videos":[{"id":"tt0101081:3:5","title":"Little Boy Boo","season":3,"episode":5,"released":"1992-10-30T00:00:00.000Z"}]}}
+{
+  "meta": {
+    "id": "hc-dinosaurs",
+    "type": "series",
+    "name": "🦖 Dinosaurs — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0101081/img",
+    "videos": [
+      {
+        "id": "tt0101081:3:5",
+        "title": "Little Boy Boo",
+        "season": 3,
+        "episode": 5,
+        "released": "1992-10-30T00:00:00.000Z"
+      }
+    ]
+  }
+}

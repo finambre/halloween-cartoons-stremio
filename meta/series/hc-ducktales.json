@@ -1,1 +1,22 @@
-{"meta":{"id":"hc-ducktales","type":"series","name":"🦆 DuckTales — Halloween","poster":"https://images.metahub.space/poster/medium/tt0092345/img","videos":[{"id":"tt0092345:1:9","title":"Nothing to Fear","season":1,"episode":9},{"id":"tt0092345:1:32","title":"Ducky Horror Picture Show","season":1,"episode":32}]}}
+{
+  "meta": {
+    "id": "hc-ducktales",
+    "type": "series",
+    "name": "🦆 DuckTales — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0092345/img",
+    "videos": [
+      {
+        "id": "tt0092345:1:9",
+        "title": "Nothing to Fear",
+        "season": 1,
+        "episode": 9
+      },
+      {
+        "id": "tt0092345:1:32",
+        "title": "Ducky Horror Picture Show",
+        "season": 1,
+        "episode": 32
+      }
+    ]
+  }
+}

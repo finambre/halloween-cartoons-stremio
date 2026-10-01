@@ -1,1 +1,19 @@
-{"meta":{"id":"hc-gravity-falls","type":"series","name":"✨ Gravity Falls — Summerween","poster":"https://images.metahub.space/poster/medium/tt1865718/img","description":"Disney's Gravity Falls Halloween-themed Summerween episode.","videos":[{"id":"tt1865718:1:12","title":"Summerween","season":1,"episode":12,"released":"2012-10-05T00:00:00.000Z","thumbnail":"https://images.metahub.space/thumbnail/medium/tt2439428/img"}]}}
+{
+  "meta": {
+    "id": "hc-gravity-falls",
+    "type": "series",
+    "name": "✨ Gravity Falls — Summerween",
+    "poster": "https://images.metahub.space/poster/medium/tt1865718/img",
+    "description": "Disney's Gravity Falls Halloween-themed Summerween episode.",
+    "videos": [
+      {
+        "id": "tt1865718:1:12",
+        "title": "Summerween",
+        "season": 1,
+        "episode": 12,
+        "released": "2012-10-05T00:00:00.000Z",
+        "thumbnail": "https://images.metahub.space/thumbnail/medium/tt2439428/img"
+      }
+    ]
+  }
+}

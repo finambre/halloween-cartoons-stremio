@@ -1,1 +1,17 @@
-{"meta":{"id":"hc-littleeinsteins","type":"series","name":"🎃 Little Einsteins — Halloween","poster":"https://m.media-amazon.com/images/M/MV5BNjViODUxMzUtYzQ1Ny00OWFiLWI3MzEtNzljMjY0Mzg3Njc3XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg","videos":[{"id":"tt0756522:1:11","title":"A Little Einsteins Halloween","season":1,"episode":11,"released":"2005-10-29T00:00:00.000Z"}]}}
+{
+  "meta": {
+    "id": "hc-littleeinsteins",
+    "type": "series",
+    "name": "🎃 Little Einsteins — Halloween",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjViODUxMzUtYzQ1Ny00OWFiLWI3MzEtNzljMjY0Mzg3Njc3XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+    "videos": [
+      {
+        "id": "tt0756522:1:11",
+        "title": "A Little Einsteins Halloween",
+        "season": 1,
+        "episode": 11,
+        "released": "2005-10-29T00:00:00.000Z"
+      }
+    ]
+  }
+}

@@ -1,1 +1,17 @@
-{"meta":{"id":"hc-fairlyoddparents","type":"series","name":"The Fairly OddParents — Halloween","poster":"https://images.metahub.space/poster/medium/tt0235918/img","videos":[{"id":"tt0235918:2:13","title":"Scary Godparents","season":2,"episode":13,"released":"2002-10-28T00:00:00.000Z"}]}}
+{
+  "meta": {
+    "id": "hc-fairlyoddparents",
+    "type": "series",
+    "name": "The Fairly OddParents — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0235918/img",
+    "videos": [
+      {
+        "id": "tt0235918:2:13",
+        "title": "Scary Godparents",
+        "season": 2,
+        "episode": 13,
+        "released": "2002-10-28T00:00:00.000Z"
+      }
+    ]
+  }
+}

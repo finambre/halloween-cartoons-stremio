@@ -4,6 +4,14 @@
     "type": "series",
     "name": "🚀 The Jetsons — Haunted Halloween",
     "poster": "https://images.metahub.space/poster/medium/tt0055683/img",
-    "videos": [{"id":"tt0055683:2:26","title":"Haunted Halloween","season":2,"episode":26,"released":"1985-10-31T00:00:00.000Z"}]
+    "videos": [
+      {
+        "id": "tt0055683:2:26",
+        "title": "Haunted Halloween",
+        "season": 2,
+        "episode": 26,
+        "released": "1985-10-31T00:00:00.000Z"
+      }
+    ]
   }
 }

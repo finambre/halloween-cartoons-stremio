@@ -1,1 +1,19 @@
-{"meta":{"id":"hc-big-city-greens","type":"series","name":"🌙 Big City Greens — Blood Moon","poster":"https://images.metahub.space/poster/medium/tt7165904/img","description":"Disney's Big City Greens Halloween special about a blood moon and zombie farm animals.","videos":[{"id":"tt7165904:1:19","title":"Blood Moon","season":1,"episode":19,"released":"2018-10-07T00:00:00.000Z","thumbnail":"https://images.metahub.space/thumbnail/medium/tt9097682/img"}]}}
+{
+  "meta": {
+    "id": "hc-big-city-greens",
+    "type": "series",
+    "name": "🌙 Big City Greens — Blood Moon",
+    "poster": "https://images.metahub.space/poster/medium/tt7165904/img",
+    "description": "Disney's Big City Greens Halloween special about a blood moon and zombie farm animals.",
+    "videos": [
+      {
+        "id": "tt7165904:1:19",
+        "title": "Blood Moon",
+        "season": 1,
+        "episode": 19,
+        "released": "2018-10-07T00:00:00.000Z",
+        "thumbnail": "https://images.metahub.space/thumbnail/medium/tt9097682/img"
+      }
+    ]
+  }
+}

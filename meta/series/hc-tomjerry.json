@@ -1,1 +1,16 @@
-{"meta":{"id":"hc-tomjerry","type":"series","name":"🐱 Tom & Jerry — Halloween / Spooky","poster":"https://images.metahub.space/poster/medium/tt0130417/img","videos":[{"id":"tt0130417:1:6","title":"Castle Wiz / Grim and Bear It / The Flying Sorceress","season":1,"episode":6}]}}
+{
+  "meta": {
+    "id": "hc-tomjerry",
+    "type": "series",
+    "name": "🐱 Tom & Jerry — Halloween / Spooky",
+    "poster": "https://images.metahub.space/poster/medium/tt0130417/img",
+    "videos": [
+      {
+        "id": "tt0130417:1:6",
+        "title": "Castle Wiz / Grim and Bear It / The Flying Sorceress",
+        "season": 1,
+        "episode": 6
+      }
+    ]
+  }
+}

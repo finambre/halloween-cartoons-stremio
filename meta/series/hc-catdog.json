@@ -4,6 +4,14 @@
     "type": "series",
     "name": "🧛 CatDog — Halloween",
     "poster": "https://images.metahub.space/poster/medium/tt0131661/img",
-    "videos": [{"id":"tt0131661:3:19","title":"CatDogula","season":3,"episode":19,"released":"1999-10-25T00:00:00.000Z"}]
+    "videos": [
+      {
+        "id": "tt0131661:3:19",
+        "title": "CatDogula",
+        "season": 3,
+        "episode": 19,
+        "released": "1999-10-25T00:00:00.000Z"
+      }
+    ]
   }
 }

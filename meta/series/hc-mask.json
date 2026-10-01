@@ -1,1 +1,17 @@
-{"meta":{"id":"hc-mask","type":"series","name":"🎭 The Mask — Halloween","poster":"https://images.metahub.space/poster/medium/tt0112064/img","videos":[{"id":"tt0112064:1:13","title":"All Hallow's Eve","season":1,"episode":13,"released":"1995-10-28T00:00:00.000Z"}]}}
+{
+  "meta": {
+    "id": "hc-mask",
+    "type": "series",
+    "name": "🎭 The Mask — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0112064/img",
+    "videos": [
+      {
+        "id": "tt0112064:1:13",
+        "title": "All Hallow's Eve",
+        "season": 1,
+        "episode": 13,
+        "released": "1995-10-28T00:00:00.000Z"
+      }
+    ]
+  }
+}

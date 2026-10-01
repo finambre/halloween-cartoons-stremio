@@ -1,12 +1,19 @@
 {
-  "meta":{
-    "id":"hc-billymandy",
-    "type":"series",
-    "name":"💀 Billy & Mandy — Halloween",
-    "poster":"https://images.metahub.space/poster/medium/tt0292800/img",
-    "description":"Halloween specials from The Grim Adventures of Billy & Mandy.",
-    "videos":[
-      {"id":"tt0292800:1:15","title":"Billy & Mandy's Jacked-Up Halloween","season":1,"episode":15,"released":"2003-10-31T00:00:00.000Z","thumbnail":"https://images.metahub.space/thumbnail/medium/tt0592979/img"}
+  "meta": {
+    "id": "hc-billymandy",
+    "type": "series",
+    "name": "💀 Billy & Mandy — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0292800/img",
+    "description": "Halloween specials from The Grim Adventures of Billy & Mandy.",
+    "videos": [
+      {
+        "id": "tt0292800:1:15",
+        "title": "Billy & Mandy's Jacked-Up Halloween",
+        "season": 1,
+        "episode": 15,
+        "released": "2003-10-31T00:00:00.000Z",
+        "thumbnail": "https://images.metahub.space/thumbnail/medium/tt0592979/img"
+      }
     ]
   }
 }

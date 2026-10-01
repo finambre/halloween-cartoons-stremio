@@ -1,1 +1,22 @@
-{"meta":{"id":"hc-garfield","type":"series","name":"🐱 Garfield and Friends — Spooky","poster":"https://images.metahub.space/poster/medium/tt0094469/img","videos":[{"id":"tt0094469:2:15","title":"Binky Goes Bad! / U.S. Acres: Barn of Fear / Mini-Mall Matters","season":2,"episode":15},{"id":"tt0094469:3:3","title":"Ship Shape / U.S. Acres: Barn of Fear II / Break-a-Leg","season":3,"episode":3}]}}
+{
+  "meta": {
+    "id": "hc-garfield",
+    "type": "series",
+    "name": "🐱 Garfield and Friends — Spooky",
+    "poster": "https://images.metahub.space/poster/medium/tt0094469/img",
+    "videos": [
+      {
+        "id": "tt0094469:3:3",
+        "title": "Ship Shape / U.S. Acres: Barn of Fear II / Break-a-Leg",
+        "season": 3,
+        "episode": 3
+      },
+      {
+        "id": "tt0094469:2:15",
+        "title": "Binky Goes Bad! / U.S. Acres: Barn of Fear / Mini-Mall Matters",
+        "season": 2,
+        "episode": 15
+      }
+    ]
+  }
+}

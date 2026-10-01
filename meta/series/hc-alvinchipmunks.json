@@ -1,1 +1,23 @@
-{"meta":{"id":"hc-alvinchipmunks","type":"series","name":"🐿️ Alvin & the Chipmunks — Halloween","poster":"https://images.metahub.space/poster/medium/tt0084972/img","videos":[{"id":"tt0084972:5:5","title":"Old Friends / The Mystery of Seville Manor","season":5,"episode":5},{"id":"tt0084972:6:5","title":"No Chipmunk Is an Island / Babysitter Frightnight","season":6,"episode":5,"released":"1988-10-08T00:00:00.000Z"}]}}
+{
+  "meta": {
+    "id": "hc-alvinchipmunks",
+    "type": "series",
+    "name": "🐿️ Alvin & the Chipmunks — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0084972/img",
+    "videos": [
+      {
+        "id": "tt0084972:5:5",
+        "title": "Old Friends / The Mystery of Seville Manor",
+        "season": 5,
+        "episode": 5
+      },
+      {
+        "id": "tt0084972:6:5",
+        "title": "No Chipmunk Is an Island / Babysitter Frightnight",
+        "season": 6,
+        "episode": 5,
+        "released": "1988-10-08T00:00:00.000Z"
+      }
+    ]
+  }
+}

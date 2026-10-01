@@ -1,1 +1,58 @@
-{"metas":[{"id":"hc-aaahh","type":"series","name":"Halloween - Aaahh!!! Real Monsters — Halloween","poster":"https://images.metahub.space/poster/medium/tt0108684/img"},{"id":"hc-doug","type":"series","name":"Halloween - Doug — Halloween","poster":"https://images.metahub.space/poster/medium/tt0101084/img"},{"id":"hc-heyarnold","type":"series","name":"Halloween - Hey Arnold! — Halloween","poster":"https://images.metahub.space/poster/medium/tt0115200/img"},{"id":"hc-invaderzim","type":"series","name":"Halloween - Invader ZIM — Halloween","poster":"https://images.metahub.space/poster/medium/tt0235923/img"},{"id":"hc-rocko","type":"series","name":"Halloween - Rocko's Modern Life — Halloween","poster":"https://images.metahub.space/poster/medium/tt0101176/img"},{"id":"hc-rugrats","type":"series","name":"Halloween - Rugrats — Halloween","poster":"https://images.metahub.space/poster/medium/tt0101188/img"},{"id":"hc-spongebob","type":"series","name":"Halloween - SpongeBob — Halloween","poster":"https://images.metahub.space/poster/medium/tt0206512/img"},{"id":"hc-fairlyoddparents","type":"series","name":"Halloween - The Fairly OddParents — Halloween","poster":"https://images.metahub.space/poster/medium/tt0235918/img"},{"id":"hc-wildthornberrys","type":"series","name":"Halloween - The Wild Thornberrys — Halloween","poster":"https://images.metahub.space/poster/medium/tt0167743/img"}]}
+{
+  "metas": [
+    {
+      "id": "hc-invaderzim",
+      "type": "series",
+      "name": "Halloween - Invader ZIM — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0235923/img"
+    },
+    {
+      "id": "hc-spongebob",
+      "type": "series",
+      "name": "Halloween - SpongeBob — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0206512/img"
+    },
+    {
+      "id": "hc-heyarnold",
+      "type": "series",
+      "name": "Halloween - Hey Arnold! — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0115200/img"
+    },
+    {
+      "id": "hc-doug",
+      "type": "series",
+      "name": "Halloween - Doug — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0101084/img"
+    },
+    {
+      "id": "hc-rugrats",
+      "type": "series",
+      "name": "Halloween - Rugrats — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0101188/img"
+    },
+    {
+      "id": "hc-aaahh",
+      "type": "series",
+      "name": "Halloween - Aaahh!!! Real Monsters — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0108684/img"
+    },
+    {
+      "id": "hc-fairlyoddparents",
+      "type": "series",
+      "name": "Halloween - The Fairly OddParents — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0235918/img"
+    },
+    {
+      "id": "hc-wildthornberrys",
+      "type": "series",
+      "name": "Halloween - The Wild Thornberrys — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0167743/img"
+    },
+    {
+      "id": "hc-rocko",
+      "type": "series",
+      "name": "Halloween - Rocko's Modern Life — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0101176/img"
+    }
+  ]
+}

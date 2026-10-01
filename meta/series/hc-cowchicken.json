@@ -1,1 +1,17 @@
-{"meta":{"id":"hc-cowchicken","type":"series","name":"Cow and Chicken — Halloween","poster":"https://images.metahub.space/poster/medium/tt0118289/img","videos":[{"id":"tt0118289:2:2","title":"Halloween with Dead Ghost, Coast to Coast","season":2,"episode":2,"released":"1998-01-20T00:00:00.000Z"}]}}
+{
+  "meta": {
+    "id": "hc-cowchicken",
+    "type": "series",
+    "name": "Cow and Chicken — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0118289/img",
+    "videos": [
+      {
+        "id": "tt0118289:2:2",
+        "title": "Halloween with Dead Ghost, Coast to Coast",
+        "season": 2,
+        "episode": 2,
+        "released": "1998-01-20T00:00:00.000Z"
+      }
+    ]
+  }
+}

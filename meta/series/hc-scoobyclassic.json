@@ -5,8 +5,20 @@
     "name": "👻 The Scooby-Doo Show — Halloween",
     "poster": "https://images.metahub.space/poster/medium/tt0063950/img",
     "videos": [
-      {"id":"tt0063950:1:1","title":"The Headless Horseman of Halloween","season":1,"episode":1,"released":"1976-10-30T00:00:00.000Z"},
-      {"id":"tt0063950:2:1","title":"To Switch a Witch","season":2,"episode":1,"released":"1978-10-28T00:00:00.000Z"}
+      {
+        "id": "tt0063950:2:1",
+        "title": "To Switch a Witch",
+        "season": 2,
+        "episode": 1,
+        "released": "1978-10-28T00:00:00.000Z"
+      },
+      {
+        "id": "tt0063950:1:1",
+        "title": "The Headless Horseman of Halloween",
+        "season": 1,
+        "episode": 1,
+        "released": "1976-10-30T00:00:00.000Z"
+      }
     ]
   }
 }

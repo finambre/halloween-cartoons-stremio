@@ -5,10 +5,34 @@
     "name": "👻 The Real Ghostbusters — Halloween",
     "poster": "https://images.metahub.space/poster/medium/tt0090506/img",
     "videos": [
-      {"id":"tt0090506:1:8","title":"When Halloween Was Forever","season":1,"episode":8,"released":"1986-10-31T00:00:00.000Z"},
-      {"id":"tt0090506:3:7","title":"Halloween II 1/2","season":3,"episode":7,"released":"1987-10-30T00:00:00.000Z"},
-      {"id":"tt0090506:5:12","title":"The Halloween Door","season":5,"episode":12,"released":"1989-10-27T00:00:00.000Z"},
-      {"id":"tt0090506:6:10","title":"Deja Boo","season":6,"episode":10,"released":"1990-10-26T00:00:00.000Z"}
+      {
+        "id": "tt0090506:1:8",
+        "title": "When Halloween Was Forever",
+        "season": 1,
+        "episode": 8,
+        "released": "1986-10-31T00:00:00.000Z"
+      },
+      {
+        "id": "tt0090506:3:7",
+        "title": "Halloween II 1/2",
+        "season": 3,
+        "episode": 7,
+        "released": "1987-10-30T00:00:00.000Z"
+      },
+      {
+        "id": "tt0090506:5:12",
+        "title": "The Halloween Door",
+        "season": 5,
+        "episode": 12,
+        "released": "1989-10-27T00:00:00.000Z"
+      },
+      {
+        "id": "tt0090506:6:10",
+        "title": "Deja Boo",
+        "season": 6,
+        "episode": 10,
+        "released": "1990-10-26T00:00:00.000Z"
+      }
     ]
   }
 }

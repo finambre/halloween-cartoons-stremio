@@ -1,1 +1,17 @@
-{"meta":{"id":"hc-looneytunes","type":"series","name":"🐰 Looney Tunes — Halloween","poster":"https://images.metahub.space/poster/medium/tt8543208/img","videos":[{"id":"tt8543208:5:2","title":"Bugs Bunny's Howl-O-Skreem Spooktacula","season":5,"episode":2,"released":"2022-09-29T00:00:00.000Z"}]}}
+{
+  "meta": {
+    "id": "hc-looneytunes",
+    "type": "series",
+    "name": "🐰 Looney Tunes — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt8543208/img",
+    "videos": [
+      {
+        "id": "tt8543208:5:2",
+        "title": "Bugs Bunny's Howl-O-Skreem Spooktacula",
+        "season": 5,
+        "episode": 2,
+        "released": "2022-09-29T00:00:00.000Z"
+      }
+    ]
+  }
+}

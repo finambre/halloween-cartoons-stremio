@@ -1,1 +1,46 @@
-{"metas":[{"id":"hc-animaniacs","type":"series","name":"Halloween - Animaniacs — Halloween","poster":"https://images.metahub.space/poster/medium/tt0105941/img"},{"id":"hc-archie","type":"series","name":"Halloween - Archie's Weird Mysteries — Halloween","poster":"https://images.metahub.space/poster/medium/tt0229878/img"},{"id":"hc-garfield","type":"series","name":"Halloween - Garfield and Friends — Spooky","poster":"https://images.metahub.space/poster/medium/tt0094469/img"},{"id":"hc-looneytunes","type":"series","name":"Halloween - Looney Tunes — Halloween","poster":"https://images.metahub.space/poster/medium/tt8543208/img"},{"id":"hc-pinkybrain","type":"series","name":"Halloween - Pinky and the Brain — Halloween","poster":"https://images.metahub.space/poster/medium/tt0112123/img"},{"id":"hc-scooby","type":"series","name":"Halloween - Scooby-Doo — Halloween","poster":"https://images.metahub.space/poster/medium/tt0063950/img"},{"id":"hc-tomjerry","type":"series","name":"Halloween - Tom & Jerry — Halloween / Spooky","poster":"https://images.metahub.space/poster/medium/tt0130417/img"}]}
+{
+  "metas": [
+    {
+      "id": "hc-looneytunes",
+      "type": "series",
+      "name": "Halloween - Looney Tunes — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt8543208/img"
+    },
+    {
+      "id": "hc-scooby",
+      "type": "series",
+      "name": "Halloween - Scooby-Doo — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0063950/img"
+    },
+    {
+      "id": "hc-animaniacs",
+      "type": "series",
+      "name": "Halloween - Animaniacs — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0105941/img"
+    },
+    {
+      "id": "hc-pinkybrain",
+      "type": "series",
+      "name": "Halloween - Pinky and the Brain — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0112123/img"
+    },
+    {
+      "id": "hc-tomjerry",
+      "type": "series",
+      "name": "Halloween - Tom & Jerry — Halloween / Spooky",
+      "poster": "https://images.metahub.space/poster/medium/tt0130417/img"
+    },
+    {
+      "id": "hc-archie",
+      "type": "series",
+      "name": "Halloween - Archie's Weird Mysteries — Halloween",
+      "poster": "https://images.metahub.space/poster/medium/tt0229878/img"
+    },
+    {
+      "id": "hc-garfield",
+      "type": "series",
+      "name": "Halloween - Garfield and Friends — Spooky",
+      "poster": "https://images.metahub.space/poster/medium/tt0094469/img"
+    }
+  ]
+}

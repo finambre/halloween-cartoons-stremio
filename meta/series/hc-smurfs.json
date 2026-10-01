@@ -1,1 +1,17 @@
-{"meta":{"id":"hc-smurfs","type":"series","name":"🔵 The Smurfs — Halloween","poster":"https://images.metahub.space/poster/medium/tt0081933/img","videos":[{"id":"tt0081933:3:23","title":"All Hallows' Eve / The Littlest Witch","season":3,"episode":23,"released":"1983-11-05T00:00:00.000Z"}]}}
+{
+  "meta": {
+    "id": "hc-smurfs",
+    "type": "series",
+    "name": "🔵 The Smurfs — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0081933/img",
+    "videos": [
+      {
+        "id": "tt0081933:3:23",
+        "title": "All Hallows' Eve / The Littlest Witch",
+        "season": 3,
+        "episode": 23,
+        "released": "1983-11-05T00:00:00.000Z"
+      }
+    ]
+  }
+}
