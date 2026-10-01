@@ -3,25 +3,25 @@
     {
       "id": "hc-regularshow",
       "type": "series",
-      "name": "Halloween - Regular Show — Halloween",
+      "name": "Regular Show — Halloween",
       "poster": "https://images.metahub.space/poster/medium/tt1710308/img"
     },
     {
       "id": "hc-billymandy",
       "type": "series",
-      "name": "Halloween - Billy & Mandy — Halloween",
+      "name": "Billy & Mandy — Halloween",
       "poster": "https://images.metahub.space/poster/medium/tt0292800/img"
     },
     {
       "id": "hc-fosters",
       "type": "series",
-      "name": "Halloween - Foster's Home — Halloween",
+      "name": "Foster's Home — Halloween",
       "poster": "https://images.metahub.space/poster/medium/tt0419326/img"
     },
     {
       "id": "hc-cowchicken",
       "type": "series",
-      "name": "Halloween - Cow and Chicken — Halloween",
+      "name": "Cow and Chicken — Halloween",
       "poster": "https://images.metahub.space/poster/medium/tt0118289/img"
     }
   ]
