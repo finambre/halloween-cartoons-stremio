@@ -20,11 +20,12 @@ jobs:
           curl -L --fail --retry 3 --retry-delay 3 --max-time 180 -o /tmp/ratings.tsv.gz https://datasets.imdbws.com/title.ratings.tsv.gz
           curl -L --fail --retry 3 --retry-delay 3 --max-time 180 -o /tmp/episodes.tsv.gz https://datasets.imdbws.com/title.episode.tsv.gz
 
-      - name: Sort catalogs and refresh posters
+      - name: Sort catalogs, refresh posters and enrich episodes
         run: |
           python - <<'PY'
-          import gzip, json, re
+          import gzip, json, re, time
           from pathlib import Path
+          from urllib.request import Request, urlopen
 
           ratings = {}
           with gzip.open('/tmp/ratings.tsv.gz', 'rt', encoding='utf-8') as f:
@@ -68,16 +69,41 @@ jobs:
               metas.sort(key=lambda m: (-rating_for_meta(m), str(m.get('name','')).lower()))
               path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
+          def fetch_cinemeta(series_id):
+              try:
+                  req = Request(f'https://v3-cinemeta.strem.io/meta/series/{series_id}.json', headers={'User-Agent':'Halloween-Cartoons-Addon/1.0'})
+                  with urlopen(req, timeout=20) as r:
+                      return json.load(r).get('meta', {})
+              except Exception as e:
+                  print(f'Cinemeta enrichment failed for {series_id}: {e}')
+                  return {}
+
           for path in Path('meta/series').glob('*.json'):
               data = json.loads(path.read_text(encoding='utf-8')); meta = data.get('meta', {})
               meta['name'] = re.sub(r'^[^A-Za-z0-9]+\s*', '', str(meta.get('name',''))).strip()
               meta['name'] = re.sub(r'\s*[—-]\s*(Halloween|Spooky)\s*$', '', meta['name'], flags=re.I).strip()
               videos = meta.get('videos', [])
+
+              series_ids = {str(v.get('id','')).split(':')[0] for v in videos if str(v.get('id','')).startswith('tt')}
+              cin_videos = {}
+              for sid in series_ids:
+                  cm = fetch_cinemeta(sid)
+                  for cv in cm.get('videos', []) or []:
+                      cin_videos[str(cv.get('id',''))] = cv
+                  time.sleep(0.15)
+
               for v in videos:
-                  parts = str(v.get('id','')).split(':')
+                  vid = str(v.get('id',''))
+                  parts = vid.split(':')
                   if len(parts) == 3 and parts[0].startswith('tt'):
                       ep = episode_map.get((parts[0], parts[1], parts[2])); v['_rating'] = ratings.get(ep, -1) if ep else -1
                   else: v['_rating'] = -1
+
+                  cv = cin_videos.get(vid, {})
+                  for field in ('overview', 'thumbnail', 'released', 'runtime', 'releaseInfo', 'genres'):
+                      if cv.get(field): v[field] = cv[field]
+                  if not v.get('released') and cv.get('released'): v['released'] = cv['released']
+
               videos.sort(key=lambda v: (-v.get('_rating', -1), str(v.get('title','')).lower()))
               for v in videos:
                   v.pop('_rating', None)
@@ -96,5 +122,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add catalog meta manifest.json
-          git commit -m "Remove Halloween suffixes and refresh IMDb ordering" || exit 0
+          git commit -m "Enrich episode metadata and refresh IMDb ordering" || exit 0
           git push
