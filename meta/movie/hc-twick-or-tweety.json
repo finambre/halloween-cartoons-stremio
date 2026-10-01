@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "hc-twick-or-tweety",
+    "type": "movie",
+    "name": "👻 Twick or Tweety",
+    "poster": "https://images.metahub.space/poster/medium/tt7728568/img",
+    "videos": [
+      {
+        "id": "tt7728568",
+        "title": "Twick or Tweety",
+        "released": "2002-10-31T00:00:00.000Z"
+      }
+    ]
+  }
+}
