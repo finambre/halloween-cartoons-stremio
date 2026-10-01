@@ -1,1 +1,28 @@
-{"meta":{"id":"hc-wizards","type":"series","name":"Wizards of Waverly Place","poster":"https://images.metahub.space/poster/medium/tt0799922/img","videos":[{"id":"tt0799922:3:2","title":"Halloween","season":3,"episode":2,"released":"2009-10-16T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0799922/3/2/w780.jpg"},{"id":"tt0799922:4:24","title":"Get Along Little Zombie","season":4,"episode":24,"thumbnail":"https://episodes.metahub.space/tt0799922/4/24/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-wizards",
+    "type": "series",
+    "name": "Wizards of Waverly Place",
+    "poster": "https://images.metahub.space/poster/medium/tt0799922/img",
+    "videos": [
+      {
+        "id": "tt0799922:4:24",
+        "title": "Get Along Little Zombie",
+        "season": 4,
+        "episode": 24,
+        "thumbnail": "https://episodes.metahub.space/tt0799922/4/24/w780.jpg",
+        "overview": "After Dexter reveals himself as Gorog, the angel of darkness, he turns Felix evil in order to use his powerful wand to take over the Wizard World. Alex, Justin and Max learn from Professor Crumbs that they must use their wizard powers together to defeat Gorog and the dark side. \r\n\r\nNote: This is part 4 of a 4-part arc. ",
+        "released": "2011-10-28T08:00:00.000Z"
+      },
+      {
+        "id": "tt0799922:3:2",
+        "title": "Halloween",
+        "season": 3,
+        "episode": 2,
+        "released": "2009-10-16T08:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0799922/3/2/w780.jpg",
+        "overview": "The Russo family comes together to create the scariest haunted house ever for Halloween."
+      }
+    ]
+  }
+}

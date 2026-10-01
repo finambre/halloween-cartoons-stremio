@@ -1,1 +1,19 @@
-{"meta":{"id":"hc-jessie","type":"series","name":"Jessie","poster":"https://images.metahub.space/poster/medium/tt1865769/img","videos":[{"id":"tt1865769:2:1","title":"The Whining","season":2,"episode":1,"released":"2012-10-05T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt1865769/2/1/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-jessie",
+    "type": "series",
+    "name": "Jessie",
+    "poster": "https://images.metahub.space/poster/medium/tt1865769/img",
+    "videos": [
+      {
+        "id": "tt1865769:2:1",
+        "title": "The Whining",
+        "season": 2,
+        "episode": 1,
+        "released": "2012-10-06T04:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt1865769/2/1/w780.jpg",
+        "overview": "The Ross kids are scared on Halloween by a legend about an evil nanny who lived in their building. Jessie and Tony crash a Halloween party so Jessie can give her short story to a famous magazine editor."
+      }
+    ]
+  }
+}

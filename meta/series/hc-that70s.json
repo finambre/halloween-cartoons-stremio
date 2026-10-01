@@ -1,1 +1,26 @@
-{"meta":{"id":"hc-that70s","type":"series","name":"That '70s Show","poster":"https://images.metahub.space/poster/medium/tt0165598/img","videos":[{"id":"tt0165598:2:5","title":"Halloween","season":2,"episode":5,"released":"1999-10-26T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0165598/2/5/w780.jpg"},{"id":"tt0165598:3:4","title":"Too Old to Trick or Treat, Too Young to Die","season":3,"episode":4,"released":"2000-10-31T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0165598/3/4/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-that70s",
+    "type": "series",
+    "name": "That '70s Show",
+    "poster": "https://images.metahub.space/poster/medium/tt0165598/img",
+    "videos": [
+      {
+        "id": "tt0165598:2:5",
+        "title": "Halloween",
+        "season": 2,
+        "episode": 5,
+        "released": "1999-10-26T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0165598/2/5/w780.jpg"
+      },
+      {
+        "id": "tt0165598:3:4",
+        "title": "Too Old to Trick or Treat, Too Young to Die",
+        "season": 3,
+        "episode": 4,
+        "released": "2000-10-31T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0165598/3/4/w780.jpg"
+      }
+    ]
+  }
+}

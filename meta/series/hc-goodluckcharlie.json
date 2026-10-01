@@ -1,1 +1,19 @@
-{"meta":{"id":"hc-goodluckcharlie","type":"series","name":"Good Luck Charlie","poster":"https://images.metahub.space/poster/medium/tt1415889/img","videos":[{"id":"tt1415889:2:25","title":"Scary Had a Little Lamb","season":2,"episode":25,"released":"2011-10-09T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt1415889/2/25/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-goodluckcharlie",
+    "type": "series",
+    "name": "Good Luck Charlie",
+    "poster": "https://images.metahub.space/poster/medium/tt1415889/img",
+    "videos": [
+      {
+        "id": "tt1415889:2:25",
+        "title": "Scary Had a Little Lamb",
+        "season": 2,
+        "episode": 25,
+        "released": "2011-10-09T08:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt1415889/2/25/w780.jpg",
+        "overview": "It's Halloween and when Charlie gets scared by Carl, Teddy decides to give him a taste of his own medicine. Meanwhile, Gabe agrees to protect Mrs. Dabney's house from teenagers, but when her house gets trashed, Gabe has to do whatever she says. Also, PJ becomes a goth because of his new girlfriend, Zoe. Bob and Amy dress as each other for Halloween."
+      }
+    ]
+  }
+}

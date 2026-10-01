@@ -1,1 +1,19 @@
-{"meta":{"id":"hc-hannahmontana","type":"series","name":"Hannah Montana","poster":"https://images.metahub.space/poster/medium/tt0493093/img","videos":[{"id":"tt0493093:1:17","title":"Torn Between Two Hannahs","season":1,"episode":17,"released":"2006-10-14T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0493093/1/17/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-hannahmontana",
+    "type": "series",
+    "name": "Hannah Montana",
+    "poster": "https://images.metahub.space/poster/medium/tt0493093/img",
+    "videos": [
+      {
+        "id": "tt0493093:1:17",
+        "title": "Torn Between Two Hannahs",
+        "season": 1,
+        "episode": 17,
+        "released": "2006-10-15T05:30:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0493093/1/17/w780.jpg",
+        "overview": "This Halloween, it's not ghosts or goblins that are frightening Miley, but her \"Treat\" of a cousin, Luann. Apparently, Luann (Who could pass for Miley's twin) is really a \"Trickster\" and try as she might, Miley cannot get anyone to believe that Luann is out to get her. As Luann aims to expose Miley's and Hannah's secret, will Miley be able to stop her dubious doppelganger in time? Jackson and Robbie give the phase \"Anything you can do, I can do better\" new meaning when they keep trying to top Mr. Dontzig ghoulish decorations.\r\n"
+      }
+    ]
+  }
+}

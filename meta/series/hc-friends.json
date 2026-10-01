@@ -1,1 +1,18 @@
-{"meta":{"id":"hc-friends","type":"series","name":"Friends","poster":"https://images.metahub.space/poster/medium/tt0108778/img","videos":[{"id":"tt0108778:8:6","title":"The One with the Halloween Party","season":8,"episode":6,"released":"2001-11-01T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0108778/8/6/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-friends",
+    "type": "series",
+    "name": "Friends",
+    "poster": "https://images.metahub.space/poster/medium/tt0108778/img",
+    "videos": [
+      {
+        "id": "tt0108778:8:6",
+        "title": "The One with the Halloween Party",
+        "season": 8,
+        "episode": 6,
+        "released": "2001-11-01T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0108778/8/6/w780.jpg"
+      }
+    ]
+  }
+}

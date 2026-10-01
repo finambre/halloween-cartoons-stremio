@@ -1,1 +1,18 @@
-{"meta":{"id":"hc-roseanne","type":"series","name":"Roseanne","poster":"https://images.metahub.space/poster/medium/tt0094540/img","videos":[{"id":"tt0094540:2:7","title":"Boo!","season":2,"episode":7,"released":"1989-10-31T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0094540/2/7/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-roseanne",
+    "type": "series",
+    "name": "Roseanne",
+    "poster": "https://images.metahub.space/poster/medium/tt0094540/img",
+    "videos": [
+      {
+        "id": "tt0094540:2:7",
+        "title": "Boo!",
+        "season": 2,
+        "episode": 7,
+        "released": "1989-10-31T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0094540/2/7/w780.jpg"
+      }
+    ]
+  }
+}

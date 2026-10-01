@@ -1,1 +1,26 @@
-{"meta":{"id":"hc-addamsfamily-live","type":"series","name":"The Addams Family","poster":"https://images.metahub.space/poster/medium/tt0057729/img","videos":[{"id":"tt0057729:1:7","title":"Halloween with the Addams Family","season":1,"episode":7,"released":"1964-10-30T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0057729/1/7/w780.jpg"},{"id":"tt0057729:2:7","title":"Halloween, Addams Style","season":2,"episode":7,"released":"1965-10-29T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0057729/2/7/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-addamsfamily-live",
+    "type": "series",
+    "name": "The Addams Family",
+    "poster": "https://images.metahub.space/poster/medium/tt0057729/img",
+    "videos": [
+      {
+        "id": "tt0057729:1:7",
+        "title": "Halloween with the Addams Family",
+        "season": 1,
+        "episode": 7,
+        "released": "1964-10-30T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0057729/1/7/w780.jpg"
+      },
+      {
+        "id": "tt0057729:2:7",
+        "title": "Halloween, Addams Style",
+        "season": 2,
+        "episode": 7,
+        "released": "1965-10-29T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0057729/2/7/w780.jpg"
+      }
+    ]
+  }
+}

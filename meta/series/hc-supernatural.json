@@ -1,1 +1,19 @@
-{"meta":{"id":"hc-supernatural","type":"series","name":"Supernatural","poster":"https://images.metahub.space/poster/medium/tt0460681/img","videos":[{"id":"tt0460681:4:7","title":"It's the Great Pumpkin, Sam Winchester","season":4,"episode":7,"released":"2008-10-30T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0460681/4/7/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-supernatural",
+    "type": "series",
+    "name": "Supernatural",
+    "poster": "https://images.metahub.space/poster/medium/tt0460681/img",
+    "videos": [
+      {
+        "id": "tt0460681:4:7",
+        "title": "It's the Great Pumpkin, Sam Winchester",
+        "season": 4,
+        "episode": 7,
+        "released": "2008-10-31T04:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0460681/4/7/w780.jpg",
+        "overview": "Chomping candy, bobbing for apples. Halloween is such fun. Until gruesome deaths signify another seal is being broken. To stop it, Castiel and another angel plan a mass annihilation of the town."
+      }
+    ]
+  }
+}

@@ -1,1 +1,28 @@
-{"meta":{"id":"hc-goosebumps-live","type":"series","name":"Goosebumps","poster":"https://images.metahub.space/poster/medium/tt0111987/img","videos":[{"id":"tt0111987:1:1","title":"The Haunted Mask: Part 1","season":1,"episode":1,"released":"1995-10-27T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0111987/1/1/w780.jpg"},{"id":"tt0111987:1:2","title":"The Haunted Mask: Part 2","season":1,"episode":2,"released":"1995-10-27T00:00:00.000Z","thumbnail":"https://episodes.metahub.space/tt0111987/1/2/w780.jpg"}]}}
+{
+  "meta": {
+    "id": "hc-goosebumps-live",
+    "type": "series",
+    "name": "Goosebumps",
+    "poster": "https://images.metahub.space/poster/medium/tt0111987/img",
+    "videos": [
+      {
+        "id": "tt0111987:1:1",
+        "title": "The Haunted Mask: Part 1",
+        "season": 1,
+        "episode": 1,
+        "released": "1995-10-27T08:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0111987/1/1/w780.jpg",
+        "overview": "Shy, quiet Carly Beth is an easy target for everyone's teasing and practical jokes. But this Halloween she's found a wonderfully spooky mask that has her tormentors scared and running. Carly Beth refuses to take her new mask off, even though it causes strange things to happen to her and other people. One day the magic of the mask turns on Carly Beth. She's horrified to discover that she and the mask have become one."
+      },
+      {
+        "id": "tt0111987:1:2",
+        "title": "The Haunted Mask: Part 2",
+        "season": 1,
+        "episode": 2,
+        "released": "1995-10-27T08:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0111987/1/2/w780.jpg",
+        "overview": "Shy, quiet Carly Beth is an easy target for everyone's teasing and practical jokes. But this Halloween she's found a wonderfully spooky mask that has her tormentors scared and running. Carly Beth refuses to take her new mask off, even though it seems to cause strange things to happen to her and other people. One day the magic of the mask turns on Carly Beth. She's horrified to discover that she and the mask have become one."
+      }
+    ]
+  }
+}
