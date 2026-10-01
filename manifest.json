@@ -1,65 +1,19 @@
 {
   "id": "com.halloweencartoons.stremio",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "name": "🎃 Halloween Cartoons",
   "description": "Halloween specials, spooky cartoon episodes and Disney Halloween movies.",
-  "resources": [
-    "catalog",
-    "meta",
-    {
-      "name": "stream",
-      "types": [
-        "movie",
-        "series"
-      ],
-      "idPrefixes": [
-        "tt"
-      ]
-    }
-  ],
-  "types": [
-    "series",
-    "movie"
-  ],
-  "idPrefixes": [
-    "hc-",
-    "tt"
-  ],
+  "resources": ["catalog","meta",{"name":"stream","types":["movie","series"],"idPrefixes":["tt"]}],
+  "types": ["series","movie"],
+  "idPrefixes": ["hc-","tt"],
   "catalogs": [
-    {
-      "type": "series",
-      "id": "halloween_specials",
-      "name": "🎃 Halloween Specials"
-    },
-    {
-      "type": "series",
-      "id": "classic_halloween",
-      "name": "👻 Classic Halloween"
-    },
-    {
-      "type": "series",
-      "id": "halloween_90s",
-      "name": "🕷️ 90s Halloween"
-    },
-    {
-      "type": "series",
-      "id": "halloween_2000s",
-      "name": "🎃 2000s Halloween"
-    },
-    {
-      "type": "series",
-      "id": "classic_a_z",
-      "name": "🔤 Classics A–Z"
-    },
-    {
-      "type": "movie",
-      "id": "disney_halloween_movies",
-      "name": "🏰 Disney Halloween Movies"
-    },
-    {
-      "type": "series",
-      "id": "disney_halloween_episodes",
-      "name": "✨ Disney Halloween Episodes"
-    }
+    {"type":"series","id":"halloween_specials","name":"🎃 Halloween Specials"},
+    {"type":"series","id":"classic_halloween","name":"👻 Classic Halloween"},
+    {"type":"series","id":"halloween_90s","name":"🕷️ 90s Halloween"},
+    {"type":"series","id":"halloween_2000s","name":"🎃 2000s Halloween"},
+    {"type":"series","id":"classic_a_z","name":"🔤 Classics A–Z"},
+    {"type":"movie","id":"classic_halloween_movies","name":"📼 Classic Halloween Specials"},
+    {"type":"movie","id":"disney_halloween_movies","name":"🏰 Disney Halloween Movies"},
+    {"type":"series","id":"disney_halloween_episodes","name":"✨ Disney Halloween Episodes"}
   ]
 }
