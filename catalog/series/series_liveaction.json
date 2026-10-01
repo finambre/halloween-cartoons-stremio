@@ -1,19 +1,19 @@
 {
   "metas": [
     {"id":"hc-addamsfamily-live","type":"series","name":"The Addams Family","poster":"https://images.metahub.space/poster/medium/tt0057729/img"},
-    {"id":"hc-areyouafraid","type":"series","name":"Are You Afraid of the Dark?","poster":"https://images.metahub.space/poster/medium/tt0220224/img"},
+    {"id":"hc-areyouafraid","type":"series","name":"Are You Afraid of the Dark?","poster":"https://images.metahub.space/poster/medium/tt0103352/img"},
     {"id":"hc-brooklyn99","type":"series","name":"Brooklyn Nine-Nine","poster":"https://images.metahub.space/poster/medium/tt2467372/img"},
     {"id":"hc-buffy","type":"series","name":"Buffy the Vampire Slayer","poster":"https://images.metahub.space/poster/medium/tt0118276/img"},
     {"id":"hc-charmed","type":"series","name":"Charmed","poster":"https://images.metahub.space/poster/medium/tt0158552/img"},
     {"id":"hc-community","type":"series","name":"Community","poster":"https://images.metahub.space/poster/medium/tt1439629/img"},
+    {"id":"hc-evenstevens","type":"series","name":"Even Stevens","poster":"https://images.metahub.space/poster/medium/tt0206511/img"},
     {"id":"hc-friends","type":"series","name":"Friends","poster":"https://images.metahub.space/poster/medium/tt0108778/img"},
-    {"id":"hc-goosebumps-live","type":"series","name":"Goosebumps","poster":"https://images.metahub.space/poster/medium/tt0108803/img"},
+    {"id":"hc-goosebumps-live","type":"series","name":"Goosebumps","poster":"https://images.metahub.space/poster/medium/tt0111987/img"},
     {"id":"hc-goodluckcharlie","type":"series","name":"Good Luck Charlie","poster":"https://images.metahub.space/poster/medium/tt1415889/img"},
     {"id":"hc-hannahmontana","type":"series","name":"Hannah Montana","poster":"https://images.metahub.space/poster/medium/tt0493093/img"},
     {"id":"hc-himym","type":"series","name":"How I Met Your Mother","poster":"https://images.metahub.space/poster/medium/tt0460649/img"},
     {"id":"hc-jessie","type":"series","name":"Jessie","poster":"https://images.metahub.space/poster/medium/tt1865769/img"},
     {"id":"hc-modernfamily","type":"series","name":"Modern Family","poster":"https://images.metahub.space/poster/medium/tt1442437/img"},
-    {"id":"hc-munsters","type":"series","name":"The Munsters","poster":"https://images.metahub.space/poster/medium/tt0057773/img"},
     {"id":"hc-office","type":"series","name":"The Office","poster":"https://images.metahub.space/poster/medium/tt0386676/img"},
     {"id":"hc-parksrec","type":"series","name":"Parks and Recreation","poster":"https://images.metahub.space/poster/medium/tt1266020/img"},
     {"id":"hc-roseanne","type":"series","name":"Roseanne","poster":"https://images.metahub.space/poster/medium/tt0094540/img"},
@@ -22,7 +22,6 @@
     {"id":"hc-talescrypt","type":"series","name":"Tales from the Crypt","poster":"https://images.metahub.space/poster/medium/tt0096708/img"},
     {"id":"hc-that70s","type":"series","name":"That '70s Show","poster":"https://images.metahub.space/poster/medium/tt0165598/img"},
     {"id":"hc-thatsoraven","type":"series","name":"That's So Raven","poster":"https://images.metahub.space/poster/medium/tt0319931/img"},
-    {"id":"hc-wizards","type":"series","name":"Wizards of Waverly Place","poster":"https://images.metahub.space/poster/medium/tt0799922/img"},
-    {"id":"hc-evenstevens","type":"series","name":"Even Stevens","poster":"https://images.metahub.space/poster/medium/tt0206511/img"}
+    {"id":"hc-wizards","type":"series","name":"Wizards of Waverly Place","poster":"https://images.metahub.space/poster/medium/tt0799922/img"}
   ]
 }
