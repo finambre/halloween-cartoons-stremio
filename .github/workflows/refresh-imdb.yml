@@ -32,91 +32,62 @@ jobs:
               for line in f:
                   parts = line.rstrip('\n').split('\t')
                   if len(parts) >= 2:
-                      try:
-                          ratings[parts[0]] = float(parts[1])
-                      except ValueError:
-                          pass
+                      try: ratings[parts[0]] = float(parts[1])
+                      except ValueError: pass
 
           episode_map = {}
           with gzip.open('/tmp/episodes.tsv.gz', 'rt', encoding='utf-8') as f:
               next(f)
               for line in f:
                   parts = line.rstrip('\n').split('\t')
-                  if len(parts) >= 4:
-                      episode_map[(parts[1], parts[2], parts[3])] = parts[0]
+                  if len(parts) >= 4: episode_map[(parts[1], parts[2], parts[3])] = parts[0]
 
           catalog_paths = [
-              'catalog/series/series_disney.json',
-              'catalog/series/series_nickelodeon.json',
-              'catalog/series/series_cartoonnetwork.json',
-              'catalog/series/series_warner.json',
-              'catalog/series/series_classics.json',
-              'catalog/movie/movies_az.json',
-          ]
+              'catalog/series/series_disney.json', 'catalog/series/series_nickelodeon.json',
+              'catalog/series/series_cartoonnetwork.json', 'catalog/series/series_warner.json',
+              'catalog/series/series_classics.json', 'catalog/movie/movies_az.json']
 
-          def poster(tconst):
-              return f'https://images.metahub.space/poster/medium/{tconst}/img'
-
+          def poster(tconst): return f'https://images.metahub.space/poster/medium/{tconst}/img'
           def rating_for_meta(m):
               mid = str(m.get('id',''))
-              if mid.startswith('tt'):
-                  return ratings.get(mid, -1)
-              p = str(m.get('poster',''))
-              match = re.search(r'(tt\d+)', p)
+              if mid.startswith('tt'): return ratings.get(mid, -1)
+              match = re.search(r'(tt\d+)', str(m.get('poster','')))
               return ratings.get(match.group(1), -1) if match else -1
 
           for filename in catalog_paths:
-              path = Path(filename)
-              data = json.loads(path.read_text(encoding='utf-8'))
+              path = Path(filename); data = json.loads(path.read_text(encoding='utf-8'))
               metas = data.get('metas', [])
-
               for m in metas:
-                  # Find an IMDb ID from the item itself, poster, or its metadata file.
-                  mid = str(m.get('id',''))
-                  tconst = mid if mid.startswith('tt') else None
+                  mid = str(m.get('id','')); tconst = mid if mid.startswith('tt') else None
                   if not tconst:
                       match = re.search(r'(tt\d+)', str(m.get('poster','')))
-                      if match:
-                          tconst = match.group(1)
-                  if tconst:
-                      m['poster'] = poster(tconst)
-
-                  # Remove accidental emoji prefixes from content names only.
+                      if match: tconst = match.group(1)
+                  if tconst: m['poster'] = poster(tconst)
                   m['name'] = re.sub(r'^[^A-Za-z0-9]+\s*', '', str(m.get('name',''))).strip()
-                  
+                  m['name'] = re.sub(r'\s*[—-]\s*(Halloween|Spooky)\s*$', '', m['name'], flags=re.I).strip()
               metas.sort(key=lambda m: (-rating_for_meta(m), str(m.get('name','')).lower()))
               path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # Sort the Halloween episodes in every series by each episode's IMDb rating.
           for path in Path('meta/series').glob('*.json'):
-              data = json.loads(path.read_text(encoding='utf-8'))
-              meta = data.get('meta', {})
+              data = json.loads(path.read_text(encoding='utf-8')); meta = data.get('meta', {})
+              meta['name'] = re.sub(r'^[^A-Za-z0-9]+\s*', '', str(meta.get('name',''))).strip()
+              meta['name'] = re.sub(r'\s*[—-]\s*(Halloween|Spooky)\s*$', '', meta['name'], flags=re.I).strip()
               videos = meta.get('videos', [])
-              if not videos:
-                  continue
-
               for v in videos:
                   parts = str(v.get('id','')).split(':')
                   if len(parts) == 3 and parts[0].startswith('tt'):
-                      ep = episode_map.get((parts[0], parts[1], parts[2]))
-                      v['_rating'] = ratings.get(ep, -1) if ep else -1
-                  else:
-                      v['_rating'] = -1
-
+                      ep = episode_map.get((parts[0], parts[1], parts[2])); v['_rating'] = ratings.get(ep, -1) if ep else -1
+                  else: v['_rating'] = -1
               videos.sort(key=lambda v: (-v.get('_rating', -1), str(v.get('title','')).lower()))
               for v in videos:
                   v.pop('_rating', None)
-
-              meta['videos'] = videos
-              data['meta'] = meta
+                  v['title'] = re.sub(r'\s*[—-]\s*(Halloween|Spooky)\s*$', '', str(v.get('title','')), flags=re.I).strip()
+              meta['videos'] = videos; data['meta'] = meta
               path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          manifest = Path('manifest.json')
-          m = json.loads(manifest.read_text(encoding='utf-8'))
-          parts = str(m.get('version','0.0.0')).split('.')
-          parts[-1] = str(int(parts[-1]) + 1)
-          m['version'] = '.'.join(parts)
-          manifest.write_text(json.dumps(m, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          manifest = Path('manifest.json'); m = json.loads(manifest.read_text(encoding='utf-8'))
+          parts = str(m.get('version','0.0.0')).split('.'); parts[-1] = str(int(parts[-1]) + 1)
+          m['version'] = '.'.join(parts); manifest.write_text(json.dumps(m, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           print('New version:', m['version'])
           PY
 
@@ -125,5 +96,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add catalog meta manifest.json
-          git commit -m "Sort Halloween content by IMDb rating and refresh posters" || exit 0
+          git commit -m "Remove Halloween suffixes and refresh IMDb ordering" || exit 0
           git push
