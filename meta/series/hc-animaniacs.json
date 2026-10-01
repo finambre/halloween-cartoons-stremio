@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "id": "hc-animaniacs",
+    "type": "series",
+    "name": "🎃 Animaniacs — Halloween",
+    "poster": "https://images.metahub.space/poster/medium/tt0105941/img",
+    "videos": [
+      {"id":"tt0105941:1:29","title":"Draculee, Draculaa / Phranken-Runt","season":1,"episode":29,"released":"1993-10-29T00:00:00.000Z"},
+      {"id":"tt0105941:1:30","title":"Hot, Bothered & Bedeviled / Moon Over Minerva","season":1,"episode":30,"released":"1993-10-30T00:00:00.000Z"},
+      {"id":"tt0105941:1:62","title":"Scare Happy Slappy / Witch One / MacBeth","season":1,"episode":62,"released":"1994-10-31T00:00:00.000Z"}
+    ]
+  }
+}
