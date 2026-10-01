@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "id": "hc-grinch-night",
+    "type": "movie",
+    "name": "🎃 It's Grinch Night",
+    "poster": "https://images.metahub.space/poster/medium/tt0183288/img",
+    "videos": [{"id":"tt0183288","title":"It's Grinch Night","released":"1977-10-29T00:00:00.000Z"}]
+  }
+}
