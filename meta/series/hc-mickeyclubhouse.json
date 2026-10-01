@@ -10,14 +10,18 @@
         "title": "Mickey's Monster Musical",
         "season": 4,
         "episode": 20,
-        "released": "2015-10-09T00:00:00.000Z"
+        "released": "2015-01-19T17:00:00.000Z",
+        "overview": "Mickey, Minnie and Pluto travel around the world to collect stamps for a special passport.",
+        "thumbnail": "https://episodes.metahub.space/tt0784896/4/20/w780.jpg"
       },
       {
         "id": "tt0784896:1:17",
         "title": "Mickey's Treat",
         "season": 1,
         "episode": 17,
-        "released": "2006-10-28T00:00:00.000Z"
+        "released": "2006-10-28T17:00:00.000Z",
+        "overview": "The Sensational Six must get to the Trick-or-Treat Tower for the big Party.",
+        "thumbnail": "https://episodes.metahub.space/tt0784896/1/17/w780.jpg"
       }
     ]
   }

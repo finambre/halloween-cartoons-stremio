@@ -10,28 +10,36 @@
         "title": "Terror Tales of the Park",
         "season": 3,
         "episode": 4,
-        "released": "2011-10-10T00:00:00.000Z"
+        "released": "2011-10-11T03:30:00.000Z",
+        "overview": "Mordecai and Rigby discover an old Victorian Doll that Pop’s has not played with or seen since he was a child and unwittingly unleash its pent up rage against him. Muscle Man and High Five Ghost want to crash an old RV into a pit.",
+        "thumbnail": "https://episodes.metahub.space/tt1710308/3/4/w780.jpg"
       },
       {
         "id": "tt1710308:5:8",
         "title": "Terror Tales of the Park III",
         "season": 5,
         "episode": 8,
-        "released": "2013-10-21T00:00:00.000Z"
+        "released": "2013-10-22T03:30:00.000Z",
+        "overview": "The group makes a bet over who can tell the scariest story at their Halloween party.",
+        "thumbnail": "https://episodes.metahub.space/tt1710308/5/8/w780.jpg"
       },
       {
         "id": "tt1710308:8:19",
         "title": "Terror Tales of the Park VI",
         "season": 8,
         "episode": 19,
-        "released": "2016-10-27T00:00:00.000Z"
+        "released": "2016-10-28T03:30:00.000Z",
+        "overview": "The gang tells scary stories with a science fiction twist.",
+        "thumbnail": "https://episodes.metahub.space/tt1710308/8/19/w780.jpg"
       },
       {
         "id": "tt1710308:6:4",
         "title": "Terror Tales of the Park IV",
         "season": 6,
         "episode": 4,
-        "released": "2014-10-30T00:00:00.000Z"
+        "released": "2014-10-30T03:30:00.000Z",
+        "overview": "The park workers try to keep Muscle Man awake by telling him scary stories in the car while driving to visit his mother.",
+        "thumbnail": "https://episodes.metahub.space/tt1710308/6/4/w780.jpg"
       }
     ]
   }

@@ -9,13 +9,17 @@
         "id": "tt0092345:1:9",
         "title": "Nothing to Fear",
         "season": 1,
-        "episode": 9
+        "episode": 9,
+        "thumbnail": "https://episodes.metahub.space/tt0092345/1/9/w780.jpg",
+        "released": "1987-09-24T00:00:00.000Z"
       },
       {
         "id": "tt0092345:1:32",
         "title": "Ducky Horror Picture Show",
         "season": 1,
-        "episode": 32
+        "episode": 32,
+        "thumbnail": "https://episodes.metahub.space/tt0092345/1/32/w780.jpg",
+        "released": "1987-10-27T00:00:00.000Z"
       }
     ]
   }

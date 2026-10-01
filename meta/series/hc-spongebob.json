@@ -11,24 +11,27 @@
         "title": "Scaredy Pants / I Was a Teenage Gary",
         "season": 1,
         "episode": 13,
-        "released": "1999-10-28T00:00:00.000Z",
-        "thumbnail": "https://images.metahub.space/thumbnail/medium/tt0707307/img"
+        "released": "1999-08-22T01:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0206512/1/13/w780.jpg",
+        "overview": "SpongeBob loses his self-confidence when an arrogant customer claims SpongeBob forgot to put pickles on his Krabby Patty."
       },
       {
         "id": "tt0206512:8:10",
         "title": "Ghoul Fools",
         "season": 8,
         "episode": 10,
-        "released": "2011-10-25T00:00:00.000Z",
-        "thumbnail": "https://images.metahub.space/thumbnail/medium/tt2089404/img"
+        "released": "2010-10-03T01:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0206512/8/10/w780.jpg",
+        "overview": "Squidward sculpts a statue of Mr. Krabs for The Krusty Krab."
       },
       {
         "id": "tt0206512:11:11",
         "title": "The Legend of Boo-Kini Bottom",
         "season": 11,
         "episode": 11,
-        "released": "2017-10-13T00:00:00.000Z",
-        "thumbnail": "https://images.metahub.space/thumbnail/medium/tt7044772/img"
+        "released": "2017-10-14T01:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0206512/11/11/w780.jpg",
+        "overview": "It's Halloween in Bikini Bottom, and the Flying Dutchman is going to make sure everyone's scared – even SpongeBob!"
       }
     ]
   }

@@ -10,7 +10,9 @@
         "title": "The Night of the Living Pumpkin",
         "season": 1,
         "episode": 8,
-        "released": "1990-11-24T00:00:00.000Z"
+        "released": "1990-11-24T08:00:00.000Z",
+        "overview": "It's Halloween and Bobby is too little to go trick or treating, so Uncle Ted helps Bobby turn the house into a Halloween House of Horror.",
+        "thumbnail": "https://episodes.metahub.space/tt0103373/1/8/w780.jpg"
       }
     ]
   }

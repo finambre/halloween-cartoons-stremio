@@ -10,7 +10,9 @@
         "title": "Halloween of Horror",
         "season": 1,
         "episode": 33,
-        "released": "1999-10-30T00:00:00.000Z"
+        "released": "2000-02-11T00:00:00.000Z",
+        "overview": "Some Vampire's attack Veronica's Halloween party and capture Archie.",
+        "thumbnail": "https://episodes.metahub.space/tt0229878/1/33/w780.jpg"
       }
     ]
   }

@@ -10,14 +10,16 @@
         "title": "A Gaggle of Galloping Ghosts",
         "season": 1,
         "episode": 11,
-        "released": "1969-11-22T00:00:00.000Z"
+        "released": "1969-11-22T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0063950/1/11/w780.jpg"
       },
       {
         "id": "tt0063950:1:13",
         "title": "Which Witch Is Which?",
         "season": 1,
         "episode": 13,
-        "released": "1969-12-06T00:00:00.000Z"
+        "released": "1969-12-06T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0063950/1/13/w780.jpg"
       }
     ]
   }

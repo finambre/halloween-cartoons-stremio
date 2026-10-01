@@ -10,14 +10,16 @@
         "title": "To Switch a Witch",
         "season": 2,
         "episode": 1,
-        "released": "1978-10-28T00:00:00.000Z"
+        "released": "1970-09-12T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0063950/2/1/w780.jpg"
       },
       {
         "id": "tt0063950:1:1",
         "title": "The Headless Horseman of Halloween",
         "season": 1,
         "episode": 1,
-        "released": "1976-10-30T00:00:00.000Z"
+        "released": "1969-09-13T00:00:00.000Z",
+        "thumbnail": "https://episodes.metahub.space/tt0063950/1/1/w780.jpg"
       }
     ]
   }

@@ -10,21 +10,27 @@
         "title": "The Boiler Room",
         "season": 2,
         "episode": 9,
-        "released": "2014-10-02T00:00:00.000Z"
+        "released": "2014-10-02T20:00:00.000Z",
+        "overview": "Mickey must face a monster living in the basement of Minnie’s apartment.",
+        "thumbnail": "https://episodes.metahub.space/tt2768802/2/9/w780.jpg"
       },
       {
         "id": "tt2768802:1:10",
         "title": "Ghoul Friend",
         "season": 1,
         "episode": 10,
-        "released": "2013-10-04T00:00:00.000Z"
+        "released": "2013-08-23T20:00:00.000Z",
+        "overview": "Mickey's car breaks down in a graveyard, where he is haunted by a zombie Goofy.",
+        "thumbnail": "https://episodes.metahub.space/tt2768802/1/10/w780.jpg"
       },
       {
         "id": "tt2768802:4:9",
         "title": "The Scariest Story Ever: A Mickey Mouse Halloween Spooktacular!",
         "season": 4,
         "episode": 9,
-        "released": "2017-10-08T00:00:00.000Z"
+        "released": "2017-11-16T20:00:00.000Z",
+        "overview": "Minnie prepares an original song for Mickey's birthday, but things became complicated when the notes run off the page, literally.",
+        "thumbnail": "https://episodes.metahub.space/tt2768802/4/9/w780.jpg"
       }
     ]
   }

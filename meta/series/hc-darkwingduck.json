@@ -9,19 +9,25 @@
         "id": "tt0101076:1:53",
         "title": "Twin Beaks",
         "season": 1,
-        "episode": 53
+        "episode": 53,
+        "thumbnail": "https://episodes.metahub.space/tt0101076/1/53/w780.jpg",
+        "released": "1991-11-20T00:00:00.000Z"
       },
       {
         "id": "tt0101076:1:6",
         "title": "Night of the Living Spud",
         "season": 1,
-        "episode": 6
+        "episode": 6,
+        "thumbnail": "https://episodes.metahub.space/tt0101076/1/6/w780.jpg",
+        "released": "1991-09-12T00:00:00.000Z"
       },
       {
         "id": "tt0101076:1:21",
         "title": "Fungus Amongus",
         "season": 1,
-        "episode": 21
+        "episode": 21,
+        "thumbnail": "https://episodes.metahub.space/tt0101076/1/21/w780.jpg",
+        "released": "1991-10-03T00:00:00.000Z"
       },
       {
         "id": "tt0101076:1:68",
@@ -33,13 +39,17 @@
         "id": "tt0101076:2:1",
         "title": "Monsters R Us",
         "season": 2,
-        "episode": 1
+        "episode": 1,
+        "thumbnail": "https://episodes.metahub.space/tt0101076/2/1/w780.jpg",
+        "released": "1991-09-07T00:00:00.000Z"
       },
       {
         "id": "tt0101076:2:8",
         "title": "Hot Spells",
         "season": 2,
-        "episode": 8
+        "episode": 8,
+        "thumbnail": "https://episodes.metahub.space/tt0101076/2/8/w780.jpg",
+        "released": "1991-10-26T00:00:00.000Z"
       }
     ]
   }

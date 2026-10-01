@@ -9,13 +9,17 @@
         "id": "tt0094469:3:3",
         "title": "Ship Shape / U.S. Acres: Barn of Fear II / Break-a-Leg",
         "season": 3,
-        "episode": 3
+        "episode": 3,
+        "thumbnail": "https://episodes.metahub.space/tt0094469/3/3/w780.jpg",
+        "released": "1990-09-15T00:00:00.000Z"
       },
       {
         "id": "tt0094469:2:15",
         "title": "Binky Goes Bad! / U.S. Acres: Barn of Fear / Mini-Mall Matters",
         "season": 2,
-        "episode": 15
+        "episode": 15,
+        "thumbnail": "https://episodes.metahub.space/tt0094469/2/15/w780.jpg",
+        "released": "1989-09-30T00:00:00.000Z"
       }
     ]
   }
