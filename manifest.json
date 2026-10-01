@@ -1,8 +1,8 @@
 {
   "id": "com.halloweencartoons.stremio",
-  "version": "5.6.3",
+  "version": "5.6.4",
   "name": "🎃 Halloween Cartoons",
-  "description": "Classic Halloween cartoons, Disney, Nickelodeon, Cartoon Network, Warner/Hanna-Barbera, other classics, and Halloween movies & specials, all organized A–Z. Poster images refreshed.",
+  "description": "Classic Halloween cartoons, Disney, Nickelodeon, Cartoon Network, Warner/Hanna-Barbera, other classics, and Halloween movies & specials, all organized A–Z. Titles standardized with Halloween prefix.",
   "resources": [
     "catalog",
     "meta",
