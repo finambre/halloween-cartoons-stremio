@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "id": "hc-caspers-halloween",
+    "type": "movie",
+    "name": "👻 Casper's Halloween Special",
+    "poster": "https://images.metahub.space/poster/medium/tt0247960/img",
+    "videos": [{"id":"tt0247960","title":"Casper's Halloween Special","released":"1979-10-30T00:00:00.000Z"}]
+  }
+}
