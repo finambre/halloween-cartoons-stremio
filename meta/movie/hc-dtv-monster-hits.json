@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "hc-dtv-monster-hits",
+    "type": "movie",
+    "name": "🎃 DTV Monster Hits",
+    "poster": "https://images.metahub.space/poster/medium/tt1317476/img",
+    "videos": [
+      {
+        "id": "tt1317476",
+        "title": "DTV Monster Hits",
+        "released": "1987-10-30T00:00:00.000Z"
+      }
+    ]
+  }
+}
