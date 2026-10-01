@@ -1,8 +1,8 @@
 {
   "id": "com.halloweencartoons.stremio",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "name": "🎃 Halloween Cartoons",
-  "description": "Classic Halloween movies and cartoon specials, organized by popularity and alphabetically.",
+  "description": "Classic Halloween cartoons, Disney, Nickelodeon, Cartoon Network, Warner/Hanna-Barbera, other classics, and Halloween movies & specials, all organized A–Z.",
   "resources": [
     "catalog",
     "meta",
@@ -28,23 +28,33 @@
   "catalogs": [
     {
       "type": "series",
-      "id": "series_popular",
-      "name": "⭐ Series — Popular"
+      "id": "series_disney",
+      "name": "🏰 Disney — A–Z"
     },
     {
       "type": "series",
-      "id": "series_az",
-      "name": "🔤 Series — A–Z"
+      "id": "series_nickelodeon",
+      "name": "🟠 Nickelodeon — A–Z"
     },
     {
-      "type": "movie",
-      "id": "movies_popular",
-      "name": "⭐ Movies — Popular"
+      "type": "series",
+      "id": "series_cartoonnetwork",
+      "name": "🟦 Cartoon Network — A–Z"
+    },
+    {
+      "type": "series",
+      "id": "series_warner",
+      "name": "🟣 Warner / Hanna-Barbera — A–Z"
+    },
+    {
+      "type": "series",
+      "id": "series_classics",
+      "name": "🎞️ Other Classics — A–Z"
     },
     {
       "type": "movie",
       "id": "movies_az",
-      "name": "🔤 Movies — A–Z"
+      "name": "🎬 Movies & Specials — A–Z"
     }
   ]
 }
