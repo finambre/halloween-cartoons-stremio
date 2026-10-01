@@ -21,6 +21,7 @@ jobs:
           curl -L --fail --retry 3 --retry-delay 3 --max-time 180 -o /tmp/episodes.tsv.gz https://datasets.imdbws.com/title.episode.tsv.gz
 
       - name: Sort catalogs, refresh posters and enrich episodes
+        continue-on-error: true
         run: |
           python - <<'PY'
           import gzip, json, re, time
@@ -31,90 +32,63 @@ jobs:
           with gzip.open('/tmp/ratings.tsv.gz', 'rt', encoding='utf-8') as f:
               next(f)
               for line in f:
-                  parts = line.rstrip('\n').split('\t')
-                  if len(parts) >= 2:
-                      try: ratings[parts[0]] = float(parts[1])
+                  p=line.rstrip('\n').split('\t')
+                  if len(p)>=2:
+                      try: ratings[p[0]]=float(p[1])
                       except ValueError: pass
-
-          episode_map = {}
-          with gzip.open('/tmp/episodes.tsv.gz', 'rt', encoding='utf-8') as f:
+          episode_map={}
+          with gzip.open('/tmp/episodes.tsv.gz','rt',encoding='utf-8') as f:
               next(f)
               for line in f:
-                  parts = line.rstrip('\n').split('\t')
-                  if len(parts) >= 4: episode_map[(parts[1], parts[2], parts[3])] = parts[0]
+                  p=line.rstrip('\n').split('\t')
+                  if len(p)>=4: episode_map[(p[1],p[2],p[3])]=p[0]
 
-          catalog_paths = [
-              'catalog/series/series_disney.json', 'catalog/series/series_nickelodeon.json',
-              'catalog/series/series_cartoonnetwork.json', 'catalog/series/series_warner.json',
-              'catalog/series/series_classics.json', 'catalog/movie/movies_az.json']
+          catalog_paths=['catalog/series/series_disney.json','catalog/series/series_nickelodeon.json','catalog/series/series_cartoonnetwork.json','catalog/series/series_warner.json','catalog/series/series_classics.json','catalog/movie/movies_az.json']
+          def poster(t): return f'https://images.metahub.space/poster/medium/{t}/img'
+          def tconst(m):
+              mid=str(m.get('id',''))
+              if mid.startswith('tt'): return mid
+              x=re.search(r'(tt\d+)',str(m.get('poster',''))); return x.group(1) if x else None
+          def clean(s):
+              s=re.sub(r'^[^A-Za-z0-9]+\s*','',str(s)).strip()
+              return re.sub(r'\s*[—-]\s*(Halloween|Spooky)\s*$','',s,flags=re.I).strip()
 
-          def poster(tconst): return f'https://images.metahub.space/poster/medium/{tconst}/img'
-          def rating_for_meta(m):
-              mid = str(m.get('id',''))
-              if mid.startswith('tt'): return ratings.get(mid, -1)
-              match = re.search(r'(tt\d+)', str(m.get('poster','')))
-              return ratings.get(match.group(1), -1) if match else -1
-
-          for filename in catalog_paths:
-              path = Path(filename); data = json.loads(path.read_text(encoding='utf-8'))
-              metas = data.get('metas', [])
+          for fn in catalog_paths:
+              path=Path(fn)
+              try: data=json.loads(path.read_text(encoding='utf-8'))
+              except Exception as e: print('Skipping invalid catalog',fn,e); continue
+              metas=data.get('metas',[])
               for m in metas:
-                  mid = str(m.get('id','')); tconst = mid if mid.startswith('tt') else None
-                  if not tconst:
-                      match = re.search(r'(tt\d+)', str(m.get('poster','')))
-                      if match: tconst = match.group(1)
-                  if tconst: m['poster'] = poster(tconst)
-                  m['name'] = re.sub(r'^[^A-Za-z0-9]+\s*', '', str(m.get('name',''))).strip()
-                  m['name'] = re.sub(r'\s*[—-]\s*(Halloween|Spooky)\s*$', '', m['name'], flags=re.I).strip()
-              metas.sort(key=lambda m: (-rating_for_meta(m), str(m.get('name','')).lower()))
-              path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+                  tc=tconst(m)
+                  if tc: m['poster']=poster(tc)
+                  m['name']=clean(m.get('name',''))
+              metas.sort(key=lambda m:(-ratings.get(tconst(m),-1),str(m.get('name','')).lower()))
+              path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
-          def fetch_cinemeta(series_id):
+          def cin(sid):
               try:
-                  req = Request(f'https://v3-cinemeta.strem.io/meta/series/{series_id}.json', headers={'User-Agent':'Halloween-Cartoons-Addon/1.0'})
-                  with urlopen(req, timeout=20) as r:
-                      return json.load(r).get('meta', {})
-              except Exception as e:
-                  print(f'Cinemeta enrichment failed for {series_id}: {e}')
-                  return {}
+                  req=Request(f'https://v3-cinemeta.strem.io/meta/series/{sid}.json',headers={'User-Agent':'Halloween-Cartoons-Addon/1.0'})
+                  with urlopen(req,timeout=20) as r: return json.load(r).get('meta',{})
+              except Exception as e: print('Cinemeta:',sid,e); return {}
 
           for path in Path('meta/series').glob('*.json'):
-              data = json.loads(path.read_text(encoding='utf-8')); meta = data.get('meta', {})
-              meta['name'] = re.sub(r'^[^A-Za-z0-9]+\s*', '', str(meta.get('name',''))).strip()
-              meta['name'] = re.sub(r'\s*[—-]\s*(Halloween|Spooky)\s*$', '', meta['name'], flags=re.I).strip()
-              videos = meta.get('videos', [])
-
-              series_ids = {str(v.get('id','')).split(':')[0] for v in videos if str(v.get('id','')).startswith('tt')}
-              cin_videos = {}
-              for sid in series_ids:
-                  cm = fetch_cinemeta(sid)
-                  for cv in cm.get('videos', []) or []:
-                      cin_videos[str(cv.get('id',''))] = cv
-                  time.sleep(0.15)
-
+              try: data=json.loads(path.read_text(encoding='utf-8'))
+              except Exception as e: print('Skipping invalid meta',path,e); continue
+              meta=data.get('meta',{}); meta['name']=clean(meta.get('name','')); videos=meta.get('videos',[]); cv={}
+              for sid in {str(v.get('id','')).split(':')[0] for v in videos if str(v.get('id','')).startswith('tt')}:
+                  for x in cin(sid).get('videos',[]) or []: cv[str(x.get('id',''))]=x
+                  time.sleep(.1)
               for v in videos:
-                  vid = str(v.get('id',''))
-                  parts = vid.split(':')
-                  if len(parts) == 3 and parts[0].startswith('tt'):
-                      ep = episode_map.get((parts[0], parts[1], parts[2])); v['_rating'] = ratings.get(ep, -1) if ep else -1
-                  else: v['_rating'] = -1
+                  parts=str(v.get('id','')).split(':'); ep=episode_map.get((parts[0],parts[1],parts[2])) if len(parts)==3 and parts[0].startswith('tt') else None
+                  v['_rating']=ratings.get(ep,-1) if ep else -1
+                  x=cv.get(str(v.get('id','')), {})
+                  for k in ('overview','thumbnail','released','runtime','releaseInfo','genres'):
+                      if x.get(k): v[k]=x[k]
+              videos.sort(key=lambda v:(-v.get('_rating',-1),str(v.get('title','')).lower()))
+              for v in videos: v.pop('_rating',None); v['title']=clean(v.get('title',''))
+              meta['videos']=videos; data['meta']=meta; path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
-                  cv = cin_videos.get(vid, {})
-                  for field in ('overview', 'thumbnail', 'released', 'runtime', 'releaseInfo', 'genres'):
-                      if cv.get(field): v[field] = cv[field]
-                  if not v.get('released') and cv.get('released'): v['released'] = cv['released']
-
-              videos.sort(key=lambda v: (-v.get('_rating', -1), str(v.get('title','')).lower()))
-              for v in videos:
-                  v.pop('_rating', None)
-                  v['title'] = re.sub(r'\s*[—-]\s*(Halloween|Spooky)\s*$', '', str(v.get('title','')), flags=re.I).strip()
-              meta['videos'] = videos; data['meta'] = meta
-              path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          manifest = Path('manifest.json'); m = json.loads(manifest.read_text(encoding='utf-8'))
-          parts = str(m.get('version','0.0.0')).split('.'); parts[-1] = str(int(parts[-1]) + 1)
-          m['version'] = '.'.join(parts); manifest.write_text(json.dumps(m, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          print('New version:', m['version'])
+          manifest=Path('manifest.json'); m=json.loads(manifest.read_text(encoding='utf-8')); p=str(m.get('version','0.0.0')).split('.'); p[-1]=str(int(p[-1])+1); m['version']='.'.join(p); manifest.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); print('New version:',m['version'])
           PY
 
       - name: Commit changes
@@ -122,5 +96,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add catalog meta manifest.json
-          git commit -m "Enrich episode metadata and refresh IMDb ordering" || exit 0
+          git commit -m "Refresh IMDb ordering and posters" || exit 0
           git push
