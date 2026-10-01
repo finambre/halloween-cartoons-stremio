@@ -1,0 +1,145 @@
+name: Refresh IMDb order and posters
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh catalogs from IMDb ratings
+        shell: python
+        run: |
+          import gzip, json, os, re, subprocess
+          from pathlib import Path
+          from urllib.request import urlopen, Request
+
+          ROOT = Path(".")
+          work = Path("/tmp/imdb")
+          work.mkdir(parents=True, exist_ok=True)
+
+          def download(name):
+              url = f"https://datasets.imdbws.com/{name}.tsv.gz"
+              out = work / f"{name}.tsv.gz"
+              if not out.exists():
+                  print("Downloading", url)
+                  req = Request(url, headers={"User-Agent":"Mozilla/5.0"})
+                  with urlopen(req, timeout=120) as r, open(out, "wb") as f:
+                      f.write(r.read())
+              return out
+
+          ratings = {}
+          with gzip.open(download("title.ratings"), "rt", encoding="utf-8") as f:
+              next(f)
+              for line in f:
+                  tconst, rating, votes = line.rstrip("\n").split("\t")
+                  ratings[tconst] = float(rating)
+
+          episodes = {}
+          with gzip.open(download("title.episode"), "rt", encoding="utf-8") as f:
+              next(f)
+              for line in f:
+                  tconst, parent, season, episode = line.rstrip("\n").split("\t")
+                  episodes[(parent, season, episode)] = tconst
+
+          catalog_paths = [
+              ROOT/"catalog/series/series_disney.json",
+              ROOT/"catalog/series/series_nickelodeon.json",
+              ROOT/"catalog/series/series_cartoonnetwork.json",
+              ROOT/"catalog/series/series_warner.json",
+              ROOT/"catalog/series/series_classics.json",
+              ROOT/"catalog/movie/movies_az.json",
+          ]
+
+          def poster_for(tconst):
+              return f"https://images.metahub.space/poster/medium/{tconst}/img"
+
+          changed = False
+
+          for path in catalog_paths:
+              data = json.loads(path.read_text(encoding="utf-8"))
+              metas = data.get("metas", [])
+
+              for m in metas:
+                  # Standardize all content posters to a consistent IMDb-backed source.
+                  mid = m.get("id", "")
+                  if mid.startswith("tt"):
+                      m["poster"] = poster_for(mid)
+                  else:
+                      match = re.search(r"/(tt\\d+)/img", m.get("poster", ""))
+                      if match:
+                          m["poster"] = poster_for(match.group(1))
+
+              def meta_rating(m):
+                  mid = m.get("id", "")
+                  if mid.startswith("tt"):
+                      return ratings.get(mid, -1)
+                  match = re.search(r"/(tt\\d+)/img", m.get("poster", ""))
+                  return ratings.get(match.group(1), -1) if match else -1
+
+              # Highest IMDb rating first; alphabetical name as deterministic tie-breaker.
+              metas.sort(key=lambda m: (-meta_rating(m), m.get("name","").lower()))
+              path.write_text(json.dumps(data, ensure_ascii=False, separators=(",",":")), encoding="utf-8")
+
+          # Sort episodes inside every series by their individual IMDb episode rating.
+          meta_dir = ROOT/"meta/series"
+          for path in meta_dir.glob("*.json"):
+              data = json.loads(path.read_text(encoding="utf-8"))
+              meta = data.get("meta", {})
+              videos = meta.get("videos", [])
+              if not videos:
+                  continue
+
+              for v in videos:
+                  # Clean old emojis from series names as well.
+                  name = meta.get("name", "")
+                  meta["name"] = re.sub(r"^[\\U00010000-\\U0010ffff]\\s*", "", name)
+                  # Match parent IMDb ID + season + episode from Stremio video id.
+                  parts = str(v.get("id","")).split(":")
+                  if len(parts) == 3 and parts[0].startswith("tt"):
+                      ep_id = episodes.get((parts[0], parts[1], parts[2]))
+                      v["_imdb_rating"] = ratings.get(ep_id, -1) if ep_id else -1
+
+              videos.sort(key=lambda v: (-v.get("_imdb_rating",-1), v.get("title","").lower()))
+              for v in videos:
+                  v.pop("_imdb_rating", None)
+
+              # Use the series IMDb poster when the existing poster contains an IMDb tconst.
+              p = meta.get("poster","")
+              match = re.search(r"/(tt\\d+)/img", p)
+              if match:
+                  meta["poster"] = poster_for(match.group(1))
+
+              path.write_text(json.dumps(data, ensure_ascii=False, separators=(",",":")), encoding="utf-8")
+
+          # Remove this helper workflow after it has completed once successfully.
+          workflow = ROOT/".github/workflows/refresh-imdb.yml"
+          workflow.unlink(missing_ok=True)
+
+          # Bump patch version automatically.
+          manifest_path = ROOT/"manifest.json"
+          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+          parts = [int(x) for x in str(manifest.get("version","0.0.0")).split(".")]
+          parts[-1] += 1
+          manifest["version"] = ".".join(map(str, parts))
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print("Updated manifest version to", manifest["version"])
+          
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog meta manifest.json .github/workflows/refresh-imdb.yml
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "Sort Halloween catalog by IMDb rating and refresh posters"
+          git push
