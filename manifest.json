@@ -1,6 +1,6 @@
 {
   "id": "com.halloweencartoons.stremio",
-  "version": "5.6.12",
+  "version": "5.6.13",
   "name": "🎃 Halloween Cartoons",
   "description": "Halloween cartoons, live-action series, movies and specials, organized by studio and A–Z.",
   "resources": ["catalog","meta",{"name":"stream","types":["movie","series"],"idPrefixes":["tt"]}],
