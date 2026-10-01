@@ -1,6 +1,6 @@
 {
   "id": "com.halloweencartoons.stremio",
-  "version": "5.2.0",
+  "version": "5.3.0",
   "name": "🎃 Halloween Cartoons",
   "description": "Classic Halloween movies and cartoon specials, organized by popularity and alphabetically.",
   "resources": ["catalog","meta",{"name":"stream","types":["movie","series"],"idPrefixes":["tt"]}],
