@@ -3,25 +3,25 @@
     {
       "id": "hc-looneytunes",
       "type": "series",
-      "name": "Looney Tunes — Halloween",
+      "name": "Looney Tunes",
       "poster": "https://images.metahub.space/poster/medium/tt8543208/img"
     },
     {
       "id": "hc-scooby",
       "type": "series",
-      "name": "Scooby-Doo — Halloween",
+      "name": "Scooby-Doo",
       "poster": "https://images.metahub.space/poster/medium/tt0063950/img"
     },
     {
       "id": "hc-animaniacs",
       "type": "series",
-      "name": "Animaniacs — Halloween",
+      "name": "Animaniacs",
       "poster": "https://images.metahub.space/poster/medium/tt0105941/img"
     },
     {
       "id": "hc-pinkybrain",
       "type": "series",
-      "name": "Pinky and the Brain — Halloween",
+      "name": "Pinky and the Brain",
       "poster": "https://images.metahub.space/poster/medium/tt0112123/img"
     },
     {
@@ -33,13 +33,13 @@
     {
       "id": "hc-archie",
       "type": "series",
-      "name": "Archie's Weird Mysteries — Halloween",
+      "name": "Archie's Weird Mysteries",
       "poster": "https://images.metahub.space/poster/medium/tt0229878/img"
     },
     {
       "id": "hc-garfield",
       "type": "series",
-      "name": "Garfield and Friends — Spooky",
+      "name": "Garfield and Friends",
       "poster": "https://images.metahub.space/poster/medium/tt0094469/img"
     }
   ]

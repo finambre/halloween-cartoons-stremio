@@ -49,16 +49,16 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BNjViODUxMzUtYzQ1Ny00OWFiLWI3MzEtNzljMjY0Mzg3Njc3XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     },
     {
-      "id": "hc-mickeyclubhouse",
-      "type": "series",
-      "name": "Mickey Mouse Clubhouse",
-      "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/19121e86-2bae-412f-a79d-075421621433?%2Fscale%3Fwidth=506&aspectRatio=2.00&format=webp"
-    },
-    {
       "id": "hc-mickeymouse",
       "type": "series",
       "name": "Mickey Mouse",
       "poster": "https://lumiere-a.akamaihd.net/v1/images/p_disneymickeymouse_21494_cef43efe.jpeg?region=0%2C45%2C540%2C720"
+    },
+    {
+      "id": "hc-mickeyclubhouse",
+      "type": "series",
+      "name": "Mickey Mouse Clubhouse",
+      "poster": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/19121e86-2bae-412f-a79d-075421621433?%2Fscale%3Fwidth=506&aspectRatio=2.00&format=webp"
     }
   ]
 }
